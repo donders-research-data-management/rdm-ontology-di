@@ -5,6 +5,10 @@ Data access account
 
 In order to upload, download or view the content of files, you need a one-time data access password.
 
+.. note::
+
+    If you authenticate yourself on the portal (https://data.donders.ru.nl) with credentials provided by the RU or RadboudUMC, you do *not* require the one-time access password. Instead, you can use the credentials and password provided by RU / RadboudUMC to be able to upload, download or view content of files.
+
 To get the data access password you first must login (Read: :ref:`How to login? <login-portal>`) in the portal (https://data.donders.ru.nl). After logging in, click on your display name at the top-right corner to open a drop-down menu, and select *Data Access Password*.
 
 .. figure:: images/edit_profile_get_access_password.jpg
