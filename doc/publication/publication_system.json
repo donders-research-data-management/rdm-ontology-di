@@ -25,6 +25,16 @@
       "urlPrefix":"http://arxiv.org/abs/"
    },
    {
+      "scheme":"bioRxiv",
+      "system":"bioRxiv.org: e-print archive",
+      "urlPrefix":"https://doi.org/10.1101/"
+   },
+   {
+      "scheme":"PsyArXiv",
+      "system":"PsyArXiv.com: e-print archive",
+      "urlPrefix":"https://psyarxiv.com/"
+   },
+   {
       "scheme":"ISBN",
       "system":"International Standard Book Number",
       "urlPrefix":null

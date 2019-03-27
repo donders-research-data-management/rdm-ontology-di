@@ -6,7 +6,7 @@
     "uniqueItems": true,
     "items": {
         "type": "object",
-        "required": ["id", "name", "path"],
+        "required": ["id", "name", "pathHtml","pathPlainText","filesAnonymousAccess"],
         "properties": {
             "id": {
                  "description": "Unique identifier",
