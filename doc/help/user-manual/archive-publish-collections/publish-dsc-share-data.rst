@@ -17,6 +17,10 @@ When publishing the DSC, you also need to select your "data use agreement" :ref:
 
 To publish a DSC, you must initially follow the same internal review procedure as described for archiving a :ref:`Data Acquisition Collection (DAC) or a Research Documentation Collection (RDC)<archive-dac-rdc>`.
 
+.. note::
+
+    Note that a (reserved) :ref:`persistent identifier <faq-persistent-identifier-DR>` is assigned to a DSC immediately after the colleciton is created. If required, you can already add this persistent identifier to your manuscript; however, only after *publishing* the collection, the persistent identifier becomes active and will point to the published DSC.
+
 If all collaborators agree on the content of the collection, you may want or be requested to allow external reviewers to access your DSC before publishing it.
 
 When the status of the current DSC is "reviewable internal", you can change its status to "reviewable external" by clicking the button and confirming the state change. In this state, the collection is still read-only.
@@ -39,14 +43,16 @@ After external review, the DSC may require changes. This can be done by making t
 
 When the manuscript is accepted for publication, the Data Sharing Collection should be published by changing its state from "reviewable external" to "published" by clicking the "switch to published" button.
 
-.. note::
-    
-    Keep in mind that this step is irreversible! See below for information about re-opening a collection.
-    
-
 .. figure:: images/switch_to_published.jpg
 
-After the collection is published a permanent read-only copy of the collection will be created and a :ref:`persistent identifier <faq-persistent-identifier>` will be assigned. The persistent identifier can be used for future references. 
+.. note::
+    
+    Keep in mind that this step is irreversible! See below for information about re-opening a published collection. Note that the *actual* publication process takes some time (e.g., several minutes or hours), depending on the size of the data collection. 
+    
+
+.. figure:: images/collection_being_published.png
+
+After the collection is published a permanent read-only copy of the collection will be created and the :ref:`persistent identifier <faq-persistent-identifier-DR>` that was assigned will become active. The persistent identifier can be used for future references. 
 
 A few details of a DSC can still be changed - using the "edit metadata" button - after it has been published, e.g., linking publications to it, and changing its collection users.
 
