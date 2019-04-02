@@ -16,7 +16,7 @@ For example, say you are interested in the data used in the paper by van der Mei
 
 In the Donders Research Data Repository, shared data can be found in a :ref:`Data Sharing Collection (DSC) <faq-collection-types>`. Click on the link, which will guide you to the DSC's page in the repository.
 
-Without logging in, you can only see limited information of the data collection. When you click the "Request access" button, you first need to log in.
+Without logging in, you can only see limited information of the data collection. When you click the "Request access" button, you may first need to log in, depending on the :ref:`access level <faq-create-account-download-data>` specified by the collection manager.
 
 To log in, follow the instructions in :ref:`1.1 Login in Portal <login-portal>`.
 
