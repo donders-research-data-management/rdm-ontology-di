@@ -70,7 +70,7 @@ Publish data
     
 8.  **Can I share my data without the need for the downloading user to register an account?**
 
-    That depends on the type of data you share, and the data use agreement you select, see :dua:`this page <index>`. In general, access to potentially identifiable human data (e.g., MRI data) must be 'restricted' and requires authentication by the user, after which the user has to agree with the specified Data Use Agreement before access is allowed. This is required to protect the privacy of our research participants.
+    Yes, but it depends on the type of data you share, and the data use agreement you select, see :dua:`this page <index>`. In general, access to potentially identifiable human data (e.g., MRI data) must be 'restricted' and requires authentication by the user, after which the user has to agree with the specified Data Use Agreement before access is allowed. This is required to protect the privacy of our research participants. Anonymous access to 100% anonymized data is allowed by selecting a general Data Use Agreement or license (that was not specifically designed for RU / DI).
 
     Journals usually accept that data sets are shared only after registering / access request, if data sets include potentially identifiable human data (e.g. MRI). If the journal questions this, you should explain to the journal why access request, and logging in to the repository, is required to access the data. Here's a template paragraph that you can use for this purpose:
 
