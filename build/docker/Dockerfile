@@ -21,4 +21,4 @@ FROM nginx:1.15-alpine
 
 COPY build/docker/nginx.conf /etc/nginx/nginx.conf
 
-COPY --from=rdm-configurable-content-builder /dist /usr/share/nginx/html
+COPY --from=rdm-configurable-content-builder /dist /usr/share/nginx/html/doc
