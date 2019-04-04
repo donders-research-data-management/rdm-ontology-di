@@ -1,10 +1,9 @@
 FROM alpine:3.9 AS rdm-configurable-content-builder
 
-RUN apk add --update \
+RUN apk add --no-cache --update \
    make \
    python \
-   py-pip && \
-   rm -rf /var/cache/apk
+   py-pip
 
 RUN pip install Sphinx --no-cache-dir
 
@@ -14,7 +13,7 @@ COPY build/scripts/Makefile /Makefile
 
 COPY doc /doc
 
-COPY *.md external_urls* /
+COPY *.md *.txt external_urls* /
 
 RUN make dist
 
