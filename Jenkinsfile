@@ -13,16 +13,11 @@ node {
             echo "Branch is ${branch} detached head ${branchDetachedHead}"
             branch = branchDetachedHead == null ? branch : branchDetachedHead
             echo "Branch is ${branch}"
-            sh "make dist"
             env.TAG = branch.equals('master') ? 'latest' : branch
-            dir("tools/docker") {
-                sh "docker-compose build"
+            dir("build/docker") {
+                sh "docker-compose build --no-cache"
                 sh "docker-compose push"
             }
-        }
-
-        stage('Archive') {
-			archiveArtifacts artifacts: '**/rdm-configurable-content-*', fingerprint: true
         }
     } finally {
         deleteDir()
