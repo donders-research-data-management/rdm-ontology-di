@@ -23,7 +23,45 @@ Publish data
 
     However, you should only share data that has been de-identified and that cannot be traced back to the individual. Keep in mind that, in all cases, sharing human data requires that the participants have signed an informed consent form that allows the data to be shared.
 
-    Raw photos, videos or audio files should not be shared in a DSC.
+    Raw photos, videos or audio files should not be shared in a DSC. (In exceptional cases, sharing is allowed, provided that the participant gave explicit consent for public sharing of this material).
+
+.. _faq-dsc-prepare:    
+
+3.  **How should I prepare my datasets before public sharing?**
+
+    Make sure your human subjects data are properly anonymized:
+    Anonymization of datasets is required before publication to protect the privacy of research participants. Anonymization must be done according to the guidelines below:
+
+    -Remove all direct identifiers
+
+    -Remove indirect identifiers that are not essential for re-using the data
+
+    -Remove indirect identifiers that have a high ‘disclosure risk’, e.g., unusual     characteristics or a combination of unusual findings (e.g. world leader with      orange skin, or very rare disease and nationality and age)
+
+    -Include as few indirect identifiers as possible
+
+    -Reduce precision of indirect identifiers (e.g., use year of birth or age in years)
+
+    See here for a list of common direct and indirect identifiers:
+
+    ==================================  ==================================================
+    Direct identifiers (not allowed)     Indirect identifiers (limit, or reduce precision)
+    ==================================  ==================================================
+    Name and/or initials                 Gender
+    E-mail address                       Year of birth
+    Home address                         Place of birth
+    Telephone number / contact info      Body measures (weight, height)
+    Unique ID numbers (BSN, SONA-id..)   Socio-economic data (work, income, education)
+    Video, photo or audio data (voice)   information about individuals mental / physical                                       well-being
+    Data containing participant's
+    facial features (MRI: deface)        Geographic information
+    Date of birth                        Sensitive data (ethnicity, race, sexual                                               orientation and risky behavior)
+    Other dates that could be identify-  Information that may stigmatize a community 
+    ing for participant: visit, scan..   (e.g., membership of religious or political org.)
+    Pseudonyms (only allowed if key-file
+    has been disposed)
+    ==================================  ==================================================
+
 
 4.  **How should I organize the data in the repository (DAC/RDC/DSC)?**
 
