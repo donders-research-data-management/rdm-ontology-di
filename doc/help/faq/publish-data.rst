@@ -27,7 +27,7 @@ Publish data
 
 .. _faq-dsc-prepare:    
 
-3.  **How should I prepare my datasets before public sharing?**
+4.  **How should I prepare my datasets before public sharing?**
 
     Make sure your human subjects data are properly anonymized:
     Anonymization of datasets is required before publication to protect the privacy of research participants. Anonymization must be done according to the guidelines below:
@@ -44,26 +44,37 @@ Publish data
 
     See here for a list of common direct and indirect identifiers:
 
-    ==================================  ==================================================
-    Direct identifiers (not allowed)     Indirect identifiers (limit, or reduce precision)
-    ==================================  ==================================================
-    Name and/or initials                 Gender
-    E-mail address                       Year of birth
-    Home address                         Place of birth
-    Telephone number / contact info      Body measures (weight, height)
-    Unique ID numbers (BSN, SONA-id..)   Socio-economic data (work, income, education)
-    Video, photo or audio data (voice)   information about individuals mental / physical                                       well-being
-    Data containing participant's
-    facial features (MRI: deface)        Geographic information
-    Date of birth                        Sensitive data (ethnicity, race, sexual                                               orientation and risky behavior)
-    Other dates that could be identify-  Information that may stigmatize a community 
-    ing for participant: visit, scan..   (e.g., membership of religious or political org.)
-    Pseudonyms (only allowed if key-file
-    has been disposed)
-    ==================================  ==================================================
+    +---------------------------------+--------------------------------------------------+
+    | Direct identifiers              | Indirect identifiers (limit, or reduce           |
+    | (not allowed)                   | precision)                                       |
+    +=================================+==================================================+
+    | Name and/or initials            | Gender                                           |
+    +---------------------------------+--------------------------------------------------+
+    | E-mail address                  | Year of birth                                    |
+    +---------------------------------+--------------------------------------------------+
+    | Home address                    | Place of birth                                   |
+    +---------------------------------+--------------------------------------------------+
+    | Telephone number / contact info | Body measures (weight, height)                   |
+    +---------------------------------+--------------------------------------------------+
+    | Unique ID numbers (BSN, SONA-id)| Socio-economic data (work, income, education)    |
+    +---------------------------------+--------------------------------------------------+
+    | Video, photo or audio data      | Information about individuals mental / physical  || (voice)                         | well-being                                       |
+    +---------------------------------+--------------------------------------------------+
+    | Data containing participant's   | Geographic information                           |
+    | facial features (MRI: deface)   |                                                  |
+    +---------------------------------+--------------------------------------------------+
+    | Date of birth                   | Sensitive data (ethnicity, race, sexual          |
+    |                                 | orientation and risky behavior)                  |
+    +---------------------------------+--------------------------------------------------+
+    | Other dates that could be       | Information that may stigmatize a community      |
+    | identifying for participant:    | (e.g., membership of religious or political org.)|| visit, scan..                   |                                                  |
+    +---------------------------------+--------------------------------------------------+
+    | Pseudonyms (only allowed if     |                                                  |
+    | key-file has been disposed)     |                                                  |
+    +---------------------------------+--------------------------------------------------+
 
 
-4.  **How should I organize the data in the repository (DAC/RDC/DSC)?**
+5.  **How should I organize the data in the repository (DAC/RDC/DSC)?**
 
     Organize your collections in a standard way (such as BIDS), because will make it much easier to share the data at a later point in time. Below is one example from the BIDS website. See more examples here.
 
@@ -74,7 +85,7 @@ Publish data
 
 .. _faq-data-use-agreement:
 
-5.  **What is a Data Use Agreement (DUA)?**
+6.  **What is a Data Use Agreement (DUA)?**
 
     The DUA specifies the conditions under which data in a DSC is shared, e.g. to give attribution. The DUA may also include details on specific limitations on the reuse of the data. As manager or contributor to the DSC you specify under which DUA the data is to be shared. When the external researcher agrees with the collection’s DUA, he/she will be automatically added as a viewer to it, which gives him/her read access.
 
@@ -82,13 +93,13 @@ Publish data
 
 .. _faq-persistent-identifier:
 
-6.  **What is a persistent identifier?**
+7.  **What is a persistent identifier?**
 
     A persistent identifier is a long-lasting reference to an online document or file. The Donders Repository persistent identifiers are realized by the handle system. See more on the Wikipedia page: https://en.wikipedia.org/wiki/Persistent_identifier
 
 .. _faq-persistent-identifier-DR:
 
-7.  **Can I use the persistent identifiers generated by the Donders Repository for my publication?**
+8.  **Can I use the persistent identifiers generated by the Donders Repository for my publication?**
 
     As a prerequisite for publication, several journals now request a persistent identifier of the shared data, which they publish in the footnote of the article. Researchers from the Donders Institute can use the persistent identifier of the published Data Sharing Collection (DSC) for that purpose.
 
@@ -106,7 +117,7 @@ Publish data
 
     - The Radboud University and the Donders Institute for Brain, Cognition and Behaviour will keep these shared data available for at least 10 years.
     
-8.  **Can I share my data without the need for the downloading user to register an account?**
+9.  **Can I share my data without the need for the downloading user to register an account?**
 
     Yes, but it depends on the type of data you share, and the data use agreement you select, see :dua:`this page <index>`. In general, access to potentially identifiable human data (e.g., MRI data) must be 'restricted' and requires authentication by the user, after which the user has to agree with the specified Data Use Agreement before access is allowed. This is required to protect the privacy of our research participants. Anonymous access to 100% anonymized data is allowed by selecting a general Data Use Agreement or license (that was not specifically designed for RU / DI).
 
@@ -116,16 +127,16 @@ Publish data
 
         All data was acquired in accordance with the declaration of Helsinki, following informed consent of participants and in line with the requirements of the Ethics Committee. In line with requirements of the Ethics Committee and the Radboud University security officer, potentially identifying data (such as imaging data) can only be shared to identifable researchers, hence the requirement for registration and for requesting access. Neither authors nor data steward is involved in granting access to external researchers, this is only based on the complete registration of the researcher and follows a “click-through” procedure. We believe that this procedure is in line with your policy, while at the same time being as open and transparent as possible.
 
-9.  **What if a 'published' Data Sharing Collection (DSC) contains incorrect information?**
+10.  **What if a 'published' Data Sharing Collection (DSC) contains incorrect information?**
 
     If a 'published' DSC contains incorrect and/or insufficient information, a collection manager may ask the research administrator to make it 'editable' again, allowing for changes to be made. If this DSC is modified and thereafter changed to 'published' again, then a second read-only copy is generated, with another unique persistent identifier.
 
     Since the original collection is persistent, it will remain accessible as well. Therefore, carefully check all the files before changing a DSC to 'published'. See :ref:`publish-dsc-share-data`.
 
-10. **How many publications can be linked to a Data Sharing Collection (DSC)?**
+11. **How many publications can be linked to a Data Sharing Collection (DSC)?**
 
     A DSC can be linked to zero, one or multiple publications. The first situation (no publication) occurs when a data set is considered useful for external researchers in their future studies. The second situation (one publication) typically occurs when a data set is used in a publication, and the DSC is shared around the same time that the paper becomes available on the publisher’s website. The third situation (more publications) typically occurs when a DSC gets reused in other publications following the paper that was published together with DSC.
 
-11. **I just published my DSC by clicking the "switch to published" button; why does my persistent identifier not work?**
+12. **I just published my DSC by clicking the "switch to published" button; why does my persistent identifier not work?**
 
     The *actual* publication of a DSC takes time, as a copy of the collection content is created once you click the "switch to published" button on the web portal. Depending on the size of the collection content, it may take a few minutes or hours before your DSC is actually accessible via the persistent identifier.
