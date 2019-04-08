@@ -58,7 +58,8 @@ Publish data
     +---------------------------------+--------------------------------------------------+
     | Unique ID numbers (BSN, SONA-id)| Socio-economic data (work, income, education)    |
     +---------------------------------+--------------------------------------------------+
-    | Video, photo or audio data      | Information about individuals mental / physical  || (voice)                         | well-being                                       |
+    | Video, photo or audio data      | Information about individuals mental / physical  | 
+    | (voice)                         | well-being                                       |
     +---------------------------------+--------------------------------------------------+
     | Data containing participant's   | Geographic information                           |
     | facial features (MRI: deface)   |                                                  |
@@ -67,7 +68,8 @@ Publish data
     |                                 | orientation and risky behavior)                  |
     +---------------------------------+--------------------------------------------------+
     | Other dates that could be       | Information that may stigmatize a community      |
-    | identifying for participant:    | (e.g., membership of religious or political org.)|| visit, scan..                   |                                                  |
+    | identifying for participant:    | (e.g., membership of religious or political org.)|
+    | visit, scan..                   |                                                  |
     +---------------------------------+--------------------------------------------------+
     | Pseudonyms (only allowed if     |                                                  |
     | key-file has been disposed)     |                                                  |
