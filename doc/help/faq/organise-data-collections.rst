@@ -72,7 +72,7 @@ Organize data collections
 
     In general, a RDC must contain all the information that a knowledgeable colleague needs to reproduce the results in the publication that is linked to this collection. More specifically, an RDC should contain files that document the process in which raw data are converted into results (statistical tests, summary measures, figures, tables, etc.). In a common scenario, this conversion from raw data to results is (partially or fully) specified by analysis scripts that can be executed by software packages such as MATLAB, R, Python, SPSS, Bash+FSL, etc. In this scenario, the obvious way of documenting the scientific process is by providing these analysis scripts. Also the version number of the software being use should be specified. 
 
-    Our definition of “data” is a broad one. For instance, it also includes computer scripts, as used for analysis or modeling work. Thus, if the published results depend on computer scripts, these must be added to the RDC.
+    Our definition of "data" is a broad one. For instance, it also includes computer scripts, as used for analysis or modeling work. Thus, if the published results depend on computer scripts, these must be added to the RDC.
 
     The RDC is a platform for sharing preliminary results (figures, tables, PowerPoint presentations, etc.) with collaborators in a project team. A RDC should contain the documents of the editorial and peer-review process pertaining to the publication that is linked to this collection (uploaded manuscripts, reviews, reply to the reviewers, ...). An archived RDC must be linked to one publication. 
 
@@ -86,7 +86,7 @@ Organize data collections
 
     It is possible to publish papers without having collected data yourself. For example, modeling work or using an existing data set. There are three ways to link these types of data to the new RDC.
 
-    If the data is already represented in the repository as one or more DAC’s, specify the DAC identification numbers in the RDC. This only works for archived DACs. A single archived DAC may be associated with multiple RDCs.
+    If the data is already represented in the repository as one or more DAC's, specify the DAC identification numbers in the RDC. This only works for archived DACs. A single archived DAC may be associated with multiple RDCs.
 
     If the data is not represented in the repository, the researchers must either add the data to the repository, or document the data by a persistent identifier (e.g. DOI or URL). This situation applies when a DAC is not yet archived or the data was collected at another institute. 
 
