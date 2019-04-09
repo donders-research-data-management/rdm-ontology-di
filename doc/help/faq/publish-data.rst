@@ -42,8 +42,7 @@ Publish data
 
     -Reduce precision of indirect identifiers (e.g., use year of birth or age in years)
 
-    See here for a list of common direct and indirect identifiers:
-
+   
     +---------------------------------+--------------------------------------------------+
     | Direct identifiers              | Indirect identifiers (limit, or reduce           |
     | (not allowed)                   | precision)                                       |
