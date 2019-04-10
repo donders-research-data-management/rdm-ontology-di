@@ -36,7 +36,7 @@ Publish data
 
     -Remove indirect identifiers that are not essential for re-using the data
 
-    -Remove indirect identifiers that have a high ‘disclosure risk’, e.g., unusual     characteristics or a combination of unusual findings (e.g. world leader with      orange skin, or very rare disease and nationality and age)
+    -Remove indirect identifiers that have a high 'disclosure risk', e.g., unusual     characteristics or a combination of unusual findings (e.g. world leader with      orange skin, or very rare disease and nationality and age)
 
     -Include as few indirect identifiers as possible
 
