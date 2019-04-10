@@ -41,7 +41,7 @@ Double-click on the saved bookmark to make connection.
 
 .. figure:: images/cd5.png
 
-You will be asked to provide the username and password of your :ref:`data access account <data-access-account>` (Attention: here you need the one-time password, not the same password for your institute account!) to login window of Cyberduck. In that window, make sure you tick the option Save password (MacOSX: "Add to Keychain").
+You will be asked to provide the username and password of your :ref:`data access account <data-access-account>` to login window of Cyberduck. In that window, make sure you tick the option Save password (MacOSX: "Add to Keychain").
 
 .. figure:: images/cd6.png
 
@@ -64,7 +64,7 @@ Upload a file/directory by selecting the Action button on the menu bar. A dialog
 
 .. note::
 
-   If the WebDAV client (i.e. Cyberduck) is inactive for two hours (e.g. no browsing or data transfer activities), you will be logged out automatically by the WebDAV server. In this case, you will have to login again with a fresh one-time password.
+   If the WebDAV client (i.e. Cyberduck) is inactive for two hours (e.g. no browsing or data transfer activities), you will be logged out automatically by the WebDAV server. In this case, you will have to login again with `data access account <data-access-account>`.
 
 If you try to upload files to a directory for which you are not authorized (i.e., you are not a contributor or manager of the corresponding collection), you will get an Internal Server Error message similar to the screenshot below.
 
