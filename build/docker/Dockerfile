@@ -5,20 +5,18 @@ RUN apk add --no-cache --update \
    python \
    py-pip
 
-RUN pip install Sphinx --no-cache-dir
+RUN pip install Sphinx --no-cache-dir && \
+    mkdir -p /src/configurable-content
 
-COPY build/tools /tools
+COPY build /src/configurable-content/build
+COPY doc /src/configurable-content/doc
+COPY external_urls.* /src/configurable-content/
 
-COPY build/scripts/Makefile /Makefile
-
-COPY doc /doc
-
-COPY *.md *.txt external_urls* /
-
-RUN make dist
+RUN ls /src/configurable-content
+RUN cd /src/configurable-content/build && make dist
 
 FROM nginx:1.15-alpine
 
 COPY build/docker/nginx.conf /etc/nginx/nginx.conf
 
-COPY --from=rdm-configurable-content-builder /dist /usr/share/nginx/html/doc
+COPY --from=rdm-configurable-content-builder /src/configurable-content/build/dist /usr/share/nginx/html/doc
