@@ -4,26 +4,26 @@ BASEURL=/doc
 endif
 
 #files to be included in the distribution
-DUA=$(wildcard doc/dua/*)
-LOGOS=$(wildcard doc/style/logo*.png)
-BACKGROUND=doc/style/background.jpg
-BADGES=$(wildcard doc/style/badge*.svg)
+DUA=$(wildcard ../doc/dua/*)
+LOGOS=$(wildcard ../doc/style/logo*.png)
+BACKGROUND=../doc/style/background.jpg
+BADGES=$(wildcard ../doc/style/badge*.svg)
 BUILDINFO=build.txt
-COLL_KEYWORDS=$(patsubst %.csv,%.json,$(wildcard doc/keyword/*.csv))
-VOC_ETHICAL_REVIEW_BOARD=doc/ethics/ethics_review_board.json
-VOC_PUBLICATION_SYSTEM=doc/publication/publication_system.json
+COLL_KEYWORDS=$(patsubst %.csv,%.json,$(wildcard ../doc/keyword/*.csv))
+VOC_ETHICAL_REVIEW_BOARD=../doc/ethics/ethics_review_board.json
+VOC_PUBLICATION_SYSTEM=../doc/publication/publication_system.json
 CMS_EXT_RSRC_IDX=external_urls.json
 CMS_SNIPPETS_MD=$(patsubst %.md,%.html,$(wildcard doc/privacy/*.md))
-CMS_SNIPPETS_HTML=$(wildcard doc/privacy/*.html doc/*.html doc/email/*.html doc/messages/*.html doc/changestate/*.html doc/login/*.html doc/editcollection/*.html doc/collection/*.html doc/collection/publish/*.html doc/collection/archive/*.html)
-COLL_README_TXT=doc/collection/publish/README.txt
+CMS_SNIPPETS_HTML=$(wildcard ../doc/privacy/*.html ../doc/*.html ../doc/email/*.html ../doc/messages/*.html ../doc/changestate/*.html ../doc/login/*.html ../doc/editcollection/*.html ../doc/collection/*.html ../doc/collection/publish/*.html ../doc/collection/archive/*.html)
+COLL_README_TXT=../doc/collection/publish/README.txt
 
 #the directory containing help documentations in RST format
-DIR_HELPDOC=doc/help
+DIR_HELPDOC=../doc/help
 DIR_HELPDOC_HTML=_build/$(notdir $(DIR_HELPDOC))
 TMPDIR := $(shell mktemp -d)
 
 #list of JSON files subject for validation
-JSON_FILES=$(wildcard doc/dua/*.json) $(VOC_ETHICAL_REVIEW_BOARD) $(VOC_PUBLICATION_SYSTEM) $(CMS_EXT_RSRC_IDX) $(COLL_KEYWORDS)
+JSON_FILES=$(wildcard ../doc/dua/*.json) $(VOC_ETHICAL_REVIEW_BOARD) $(VOC_PUBLICATION_SYSTEM) $(CMS_EXT_RSRC_IDX) $(COLL_KEYWORDS)
 
 JSON_SCHEMAS=$(wildcard $(patsubst %.json,%.schema,$(JSON_FILES)))
 
@@ -53,7 +53,7 @@ $(CMS_SNIPPETS_MD):
 
 $(CMS_EXT_RSRC_IDX):
 	@echo "--> build index file: $@"
-	sed "s|http://data.donders.ru.nl|$(BASEURL)|g" $(CMS_EXT_RSRC_IDX) > $(CMS_EXT_RSRC_IDX).tmp
+	sed "s|http://data.donders.ru.nl|$(BASEURL)|g" ../$(CMS_EXT_RSRC_IDX) > $(CMS_EXT_RSRC_IDX).tmp
 
 $(DIR_HELPDOC_HTML):
 	@echo "--> build helpdoc files in $(DIR_HELPDOC)"
@@ -64,7 +64,7 @@ $(DIR_HELPDOC_HTML):
 		cp -R $(shell pwd)/tools/sphinx/* $(TMPDIR) && \
 		make -C $(TMPDIR) html
 	find $(TMPDIR)/_build/html -name '*.html' -exec \
-		sed -i 's|.*src="_static/jquery.js".*||g' {} +
+		sed -i'' 's|.*src="_static/jquery.js".*||g' {} +
 	mkdir -p $@ && mv $(TMPDIR)/_build/html/* $@
 	rm -rf $(TMPDIR)
 
@@ -86,8 +86,8 @@ $(BUILDINFO):
 $(DIST_ZIP): build validate_json $(CMS_EXT_RSRC_IDX)
 	@echo "--> packing $(DIST_ZIP) ..."
 	@if [ ! -d dist ]; then mkdir dist; fi 
-	@$(foreach d,$(dir $(DIST_FILES)),mkdir -p $(patsubst doc/%,dist/%,$(d));)
-	@$(foreach f,$(DIST_FILES),cp $(f) $(patsubst doc/%,dist/%,$(f));)
+	@$(foreach d,$(dir $(DIST_FILES)),mkdir -p $(patsubst ../doc/%,dist/%,$(d));)
+	@$(foreach f,$(DIST_FILES),cp $(f) $(patsubst ../doc/%,dist/%,$(f));)
 	@cp $(BUILDINFO).dist dist/$(BUILDINFO)
 	@mv $(CMS_EXT_RSRC_IDX).tmp dist/$(CMS_EXT_RSRC_IDX)
 	@mkdir -p dist/help && cp -R $(DIR_HELPDOC_HTML)/* dist/help

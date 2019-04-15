@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  rdm-configurable-content:
+    build:
+      context: ../../
+      dockerfile: build/docker/Dockerfile
+    image: "docker.platbuik.uci.ru.nl/donders/rdm-configurable-content-donders:${TAG}"
+    container_name: rdm-configurable-content
+    ports:
+      - 8082:80
+    logging:
+      options:
+       max-size: "20m"
+       max-file: "2"
+    restart: unless-stopped
+    networks:
+      - rdm-network
+networks:
+  rdm-network:
+    external: true
