@@ -5,7 +5,7 @@ node {
    }
 
     stage('Build') {
-        sh 'echo "Git hash: `git rev-parse --verify HEAD` , Build on `date`" > build.txt'
+        sh 'echo "Git hash: `git rev-parse --verify HEAD` , Build on `date`" > build/build.txt'
         def branch = env.BRANCH_NAME
         env.TAG = branch.equals('release') ? 'release' : 'latest'
         echo "Building branch ${branch} and pushing as ${env.TAG}"
