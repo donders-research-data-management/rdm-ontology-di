@@ -10,6 +10,6 @@ For more detail about managing the content within this repository please see the
 
 The repository can be accessed at http://data.donders.ru.nl/
 
-The end-user documentation is at http://www.ru.nl/donders/research/data/
+The end-user documentation is at https://data.donders.ru.nl/doc/help/
 
 Technical documentation for system administrators is at https://radboud.atlassian.net/wiki/spaces/RDM/overview
