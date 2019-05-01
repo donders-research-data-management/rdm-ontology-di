@@ -55,16 +55,6 @@
   "login.authenticationHash.success.message": "/doc/login/hashSignInSuccess.html",
   "login.authenticationHash.failed.message": "/doc/login/hashSignInFailed.html",
 
-  "collection.tab.metadata.loggedin" : "/doc/collection/metadata_loggedin.html",
-  "collection.tab.metadata.anonymous" : "/doc/collection/metadata_anonymous.html",
-  "collection.tab.files.loggedin" : "/doc/collection/files_loggedin.html",
-  "collection.tab.files.anonymous" : "/doc/collection/files_anonymous.html",
-  "collection.tab.history.loggedin" : "/doc/collection/history_loggedin.html",
-  "collection.tab.history.anonymous" : "/doc/collection/history_anonymous.html",
-  "collection.tab.manifest.loggedin" : "/doc/collection/manifest_loggedin.html",
-  "collection.tab.manifest.anonymous" : "/doc/collection/manifest_anonymous.html",
-  "collection.tab.manifest.notAvailable" : "/doc/collection/manifest_not_available.html",
-
   "collection.tab.metadata.filesNotPresent" : "/doc/collection/metadata_files_not_present.html",
   "collection.tab.metadata.filesAccessible" : "/doc/collection/metadata_files_accessible.html",
   "collection.tab.metadata.filesRequestable" : "/doc/collection/metadata_files_requestable.html",
@@ -81,6 +71,7 @@
   "collection.tab.manifest.filesAccessible" : "/doc/collection/manifest_files_accessible.html",
   "collection.tab.manifest.filesRequestable" : "/doc/collection/manifest_files_requestable.html",
   "collection.tab.manifest.filesInaccessible" : "/doc/collection/manifest_files_inaccessible.html",
+  "collection.tab.manifest.notAvailable" : "/doc/collection/manifest_not_available.html",
 
   "collection.publish.filesReserved" : "/doc/collection/publish/files_reserved.html",
   "collection.publish.beingPublished" : "/doc/collection/publish/being_published.html",
