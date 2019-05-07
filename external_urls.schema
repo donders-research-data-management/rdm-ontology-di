@@ -36,7 +36,6 @@
         "collection.tab.manifest.filesRequestable",
         "collection.tab.manifest.filesInaccessible",
         "collection.tab.manifest.notAvailable",
-        "collection.requestaccess",
         "collection.publish.filesReserved",
         "collection.publish.beingPublished",
         "collection.publish.readme",

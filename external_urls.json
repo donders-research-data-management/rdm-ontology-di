@@ -45,7 +45,6 @@
   "user.researcherId.urlPrefix" : "http://www.researcherid.com/rid/",
   "user.openResearcherAndContributorId.urlPrefix" : "http://orcid.org/",
   "collection.mesh2015Keyword.urlPrefix" : "http://id.nlm.nih.gov/mesh/",
-  "collection.requestaccess" : "/doc/requestaccess.html",
 
   "message.user.signup": "/doc/signup.html",
 
