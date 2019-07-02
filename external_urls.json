@@ -13,6 +13,7 @@
   "footer" : "/doc/footer.html",
   "privacyPolicy" : "/doc/privacy_policy.html",
   "dataAccess" : "/doc/data_access.html",
+  "dataAccessRuUmc" : "/doc/data_access_ru_umc.html",
 
   "editCollection.confirmSocialUser" : "/doc/editcollection/confirmsocialuser.html",
   "changeStateFromEditableToReviewableInternal" : "/doc/changestate/editabletoreviewableinternal.html",

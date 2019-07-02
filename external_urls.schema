@@ -13,6 +13,7 @@
         "logout",
         "footer",
         "dataAccess",
+        "dataAccessRuUmc",
         "emailCollectionChangesLeadText",
         "emailManagerLessCollectionsLeadText",
         "oneTimePasswordModal.explanationLink",
