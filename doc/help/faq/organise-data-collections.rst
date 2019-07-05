@@ -55,7 +55,7 @@ Organize data collections
 
 2.  **How should I organize the data in a Data Acquisition Collection (DAC)?**
 
-    Organize your DAC in a standard way (such as BIDS), because will make it much easier to share the data at a later point in time. Below is one example from the BIDS website. See for more examples `here<http://bids.neuroimaging.io>`_.
+    Organize your DAC in a standard way (such as BIDS), because will make it much easier to share the data at a later point in time. Below is one example from the BIDS website. See for more examples `here <http://bids.neuroimaging.io>`_.
 
     .. figure:: images/BIDS.PNG
         :scale: 50%

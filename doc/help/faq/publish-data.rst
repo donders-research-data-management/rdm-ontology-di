@@ -32,15 +32,15 @@ Publish data
     Make sure your human subjects data are properly anonymized:
     Anonymization of datasets is required before publication to protect the privacy of research participants. Anonymization must be done according to the guidelines below:
 
-    -Remove all direct identifiers
+    - Remove all direct identifiers
 
-    -Remove indirect identifiers that are not essential for re-using the data
+    - Remove indirect identifiers that are not essential for re-using the data
 
-    -Remove indirect identifiers that have a high 'disclosure risk', e.g., unusual     characteristics or a combination of unusual findings (e.g. world leader with      orange skin, or very rare disease and nationality and age)
+    - Remove indirect identifiers that have a high 'disclosure risk', e.g., unusual characteristics or a combination of unusual findings (e.g. world leader with      orange skin, or very rare disease and nationality and age)
 
-    -Include as few indirect identifiers as possible
+    - Include as few indirect identifiers as possible
 
-    -Reduce precision of indirect identifiers (e.g., use year of birth or age in years)
+    - Reduce precision of indirect identifiers (e.g., use year of birth or age in years)
 
 
     +---------------------------------+--------------------------------------------------+
