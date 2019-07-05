@@ -114,7 +114,7 @@ Publish data
 
     - If applicable, see :dua:`this page <index>`: Prior to accessing and downloading the shared data, users have to create an account. It is possible to use an institutional account, an ORCID account, or a social ID from Google+, Facebook, Twitter, LinkedIn or Microsoft. After authentication, users must accept the Data Use Agreement (DUA), after which they are automatically authorised to download the shared data. The DUA specifies whether there are any restrictions on how the data may be used.
 
-     - As an example of how to access shared data, one may follow the Digital Object Indentifier (doi) in the data availability segment of the footnote of `this paper <http://dx.doi.org/10.1371/journal.pone.0154881>`_. Instructions for how to request access and to download shared data can be found at :ref:`access-shared-data`.
+    - As an example of how to access shared data, one may follow the Digital Object Indentifier (doi) in the data availability segment of the footnote of `this paper <http://dx.doi.org/10.1371/journal.pone.0154881>`_. Instructions for how to request access and to download shared data can be found at :ref:`access-shared-data`.
 
     - The Radboud University and the Donders Institute for Brain, Cognition and Behaviour will keep these shared data available for at least 10 years.
 
@@ -128,7 +128,7 @@ Publish data
 
         All data was acquired in accordance with the declaration of Helsinki, following informed consent of participants and in line with the requirements of the Ethics Committee. In line with requirements of the Ethics Committee and the Radboud University security officer, potentially identifying data (such as imaging data) can only be shared to identifable researchers, hence the requirement for registration and for requesting access. Neither authors nor data steward is involved in granting access to external researchers, this is only based on the complete registration of the researcher and follows a “click-through” procedure. We believe that this procedure is in line with your policy, while at the same time being as open and transparent as possible.
 
-10.  **What if a 'published' Data Sharing Collection (DSC) contains incorrect information?**
+10. **What if a 'published' Data Sharing Collection (DSC) contains incorrect information?**
 
     If a 'published' DSC contains incorrect and/or insufficient information, a collection manager may ask the research administrator to make it 'editable' again, allowing for changes to be made. If this DSC is modified and thereafter changed to 'published' again, then a second read-only copy is generated, with another unique persistent identifier.
 
