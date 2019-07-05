@@ -3,10 +3,10 @@
 .settings
 *.zip
 *.pyc
-/vocabulary/collection_keyword/*.json
+**/keyword/*.json
 /privacy/privacy_policy.html
 .idea
-_build
+build
 
 /external_urls_DEV.json
 /.pydevproject
