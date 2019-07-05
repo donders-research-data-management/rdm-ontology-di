@@ -12,41 +12,41 @@ Organize data collections
     Some examples for the different methods:
 
     **Behavioral experiments**
- 
+
     - stimulus files
     - computer scripts for presenting the stimuli (to be run by Presentation or PsychoPy)
     - experiment log files
- 
+
     **Anatomical MRI experiments**
- 
+
     - DICOM files
- 
+
     **Functional MRI experiments**
- 
+
     - DICOM files
     - possibly eye tracker data
     - possibly video files
     - possibly ExG files
     - (if applicable) the files specified under "behavioral experiments"
- 
+
     **EEG experiments**
- 
+
     - EEG files (vhdr/vmrk/dat)
     - Presentation log files
     - possibly eye tracker data
     - possibly video and audio files that were recorded along with the EEG
     - (if applicable) the files specified under "behavioral experiments"
- 
+
     **MEG experiments**
- 
+
     - MEG datasets
     - Presentation log files
     - possibly eye tracker data that was recorded along
     - possibly video and audio files that were recorded along with the EEG
     - (if applicable) the files specified under "behavioral experiments"
- 
+
     In general, you should also upload a copy of the Presentation code and stimulus material that you used during the experiment and of the lab notes that you took during the experiment. Also include a description of the experimental setup.
- 
+
     You should not upload personal information to a DAC (or any other collection). Personal information are data that directly identify your subjects (e.g., their name, address, telephone number, bank account, etc.). This also means that you should not upload the informed consent form that is signed by the subject. Note that the DAC is allowed to contain indirectly identifying information, such as detailed questionnaire results (but with the personal information removed), photos, audio and video recordings or facial features in an anatomical MRI.
 
     You should not upload any data that can be obtained as the result of analyses that take raw data as input (processed data). Documenting the data analysis is a part of the Research Documentation Collection (RDC).
@@ -55,13 +55,13 @@ Organize data collections
 
 2.  **How should I organize the data in a Data Acquisition Collection (DAC)?**
 
-    Organize your DAC in a standard way (such as BIDS), because will make it much easier to share the data at a later point in time. Below is one example from the BIDS website. See for more examples here.
-   
+    Organize your DAC in a standard way (such as BIDS), because will make it much easier to share the data at a later point in time. Below is one example from the BIDS website. See for more examples `here<http://bids.neuroimaging.io>`_.
+
     .. figure:: images/BIDS.PNG
         :scale: 50%
-   
+
     For all types of data we recommend that you add a 'readme' document that describes the organization of the data over the files and directories.
-   
+
     For an example of a well-organized DAC from a DCCN project see this :download:`example <documents/DAC_example.pdf>`. The first page of this document contains the content of the 'readme general' file, including the DAC abstract.
 
 .. _faq-rdc-files:
@@ -70,11 +70,11 @@ Organize data collections
 
     An RDC has three functions: documenting the scientific process, sharing preliminary results within the project team, and documenting the editorial and peer-review process.
 
-    In general, a RDC must contain all the information that a knowledgeable colleague needs to reproduce the results in the publication that is linked to this collection. More specifically, an RDC should contain files that document the process in which raw data are converted into results (statistical tests, summary measures, figures, tables, etc.). In a common scenario, this conversion from raw data to results is (partially or fully) specified by analysis scripts that can be executed by software packages such as MATLAB, R, Python, SPSS, Bash+FSL, etc. In this scenario, the obvious way of documenting the scientific process is by providing these analysis scripts. Also the version number of the software being use should be specified. 
+    In general, a RDC must contain all the information that a knowledgeable colleague needs to reproduce the results in the publication that is linked to this collection. More specifically, an RDC should contain files that document the process in which raw data are converted into results (statistical tests, summary measures, figures, tables, etc.). In a common scenario, this conversion from raw data to results is (partially or fully) specified by analysis scripts that can be executed by software packages such as MATLAB, R, Python, SPSS, Bash+FSL, etc. In this scenario, the obvious way of documenting the scientific process is by providing these analysis scripts. Also the version number of the software being use should be specified.
 
     Our definition of "data" is a broad one. For instance, it also includes computer scripts, as used for analysis or modeling work. Thus, if the published results depend on computer scripts, these must be added to the RDC.
 
-    The RDC is a platform for sharing preliminary results (figures, tables, PowerPoint presentations, etc.) with collaborators in a project team. A RDC should contain the documents of the editorial and peer-review process pertaining to the publication that is linked to this collection (uploaded manuscripts, reviews, reply to the reviewers, ...). An archived RDC must be linked to one publication. 
+    The RDC is a platform for sharing preliminary results (figures, tables, PowerPoint presentations, etc.) with collaborators in a project team. A RDC should contain the documents of the editorial and peer-review process pertaining to the publication that is linked to this collection (uploaded manuscripts, reviews, reply to the reviewers, ...). An archived RDC must be linked to one publication.
 
     Also include a description of the experimental setup.
 
@@ -88,7 +88,7 @@ Organize data collections
 
     If the data is already represented in the repository as one or more DAC's, specify the DAC identification numbers in the RDC. This only works for archived DACs. A single archived DAC may be associated with multiple RDCs.
 
-    If the data is not represented in the repository, the researchers must either add the data to the repository, or document the data by a persistent identifier (e.g. DOI or URL). This situation applies when a DAC is not yet archived or the data was collected at another institute. 
+    If the data is not represented in the repository, the researchers must either add the data to the repository, or document the data by a persistent identifier (e.g. DOI or URL). This situation applies when a DAC is not yet archived or the data was collected at another institute.
 
 .. _faq-rdc-organisation:
 
@@ -117,7 +117,7 @@ Organize data collections
     Eye tracker data              .edf (Eyelink), .idf (SMI), ASCII text
     Articles and documentation    .docx (MS Word), .pdf
     Code and analysis scripts     Native representation, for example .m (MATLAB), .py                                   (Python), .sps (SPSS)
-    README files                  Plain text (ASCII) 
+    README files                  Plain text (ASCII)
     ============================  ===================================================
 
 

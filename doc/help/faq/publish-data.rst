@@ -4,11 +4,11 @@ Publish data
 1.  **Should I always share the data of my publication?**
 
     Yes! Our funding agencies, such as NWO and EU, require this either explicitly in the grant on basis of which you carried out the work, or implicitly in their general regulations. The Radboud University has made open access part of its policy. The Donders Institute requires sharing the data.
-    
+
     There might be reasons why you do not want to share your data immediately, e.g. if you are still working on follow up publications based on the same data. In those cases you should share the data under an embargo of a certain time.
-    
+
     There might be reasons why you do not want to share your data with everyone, e.g. if it represents financial value. In those cases you should make a custom data use agreement under which the data is to be shared (which might e.g. contain a clause about paying for the data).
-    
+
     There might be reasons related to the privacy of your subjects and where the data cannot be de-identified. In that case you still might be able to share processed results at the group level that allow other researchers to validate the claims in your paper. Note that unprocessed imaging and MEG/EEG data can be shared after it has been de-identified and under the appropriate data use agreement.
 
 2.  **Can I share my data if they belong to an ongoing project?**
@@ -25,7 +25,7 @@ Publish data
 
     Raw photos, videos or audio files should not be shared in a DSC. (In exceptional cases, sharing is allowed, provided that the participant gave explicit consent for public sharing of this material).
 
-.. _faq-dsc-prepare:    
+.. _faq-dsc-prepare:
 
 4.  **How should I prepare my datasets before public sharing?**
 
@@ -42,7 +42,7 @@ Publish data
 
     -Reduce precision of indirect identifiers (e.g., use year of birth or age in years)
 
-   
+
     +---------------------------------+--------------------------------------------------+
     | Direct identifiers              | Indirect identifiers (limit, or reduce           |
     | (not allowed)                   | precision)                                       |
@@ -57,7 +57,7 @@ Publish data
     +---------------------------------+--------------------------------------------------+
     | Unique ID numbers (BSN, SONA-id)| Socio-economic data (work, income, education)    |
     +---------------------------------+--------------------------------------------------+
-    | Video, photo or audio data      | Information about individuals mental / physical  | 
+    | Video, photo or audio data      | Information about individuals mental / physical  |
     | (voice)                         | well-being                                       |
     +---------------------------------+--------------------------------------------------+
     | Data containing participant's   | Geographic information                           |
@@ -90,7 +90,7 @@ Publish data
 
     The DUA specifies the conditions under which data in a DSC is shared, e.g. to give attribution. The DUA may also include details on specific limitations on the reuse of the data. As manager or contributor to the DSC you specify under which DUA the data is to be shared. When the external researcher agrees with the collection’s DUA, he/she will be automatically added as a viewer to it, which gives him/her read access.
 
-    The repository provides two default DUAs: for collections that include potentially identifiable data from individual human subjects, please use :dua:`RU-DI-HD-1.0`; for collections that only include data that cannot be identified in any way (e.g. only group results, or data that does not originate from human subjects), please use :dua:`RU-DI-NH-1.0`. We also support :dua:`several other DUAs <index>` for other types of data. If a dataset has more specific requirements for data sharing (e.g. due to sensitivity of data or requirements of funders or collaborating partners), it is required to make a custom DUA. See here a list of aspects to consider in the design of a DUA. For further help, please send an email to datasupport@donders.ru.nl.
+    The repository provides two default DUAs: please use :dua:`RU-DI-HD-1.0` for collections that include potentially identifiable data from individual human subjects, please use :dua:`RU-DI-NH-1.0` for collections that do not include data that could be identified in any way (e.g. only group results, or data that does not originate from human subjects). We also support :dua:`several other DUAs <index>` for other types of data. If a dataset has more specific requirements for data sharing (e.g. due to sensitivity of data or requirements of funders or collaborating partners), it is required to make a custom DUA. For further help, please send an email to datasupport@donders.ru.nl.
 
 .. _faq-persistent-identifier:
 
@@ -117,7 +117,7 @@ Publish data
      - As an example of how to access shared data, one may follow the Digital Object Indentifier (doi) in the data availability segment of the footnote of `this paper <http://dx.doi.org/10.1371/journal.pone.0154881>`_. Instructions for how to request access and to download shared data can be found at :ref:`access-shared-data`.
 
     - The Radboud University and the Donders Institute for Brain, Cognition and Behaviour will keep these shared data available for at least 10 years.
-    
+
 9.  **Can I share my data without the need for the downloading user to register an account?**
 
     Yes, but it depends on the type of data you share, and the data use agreement you select, see :dua:`this page <index>`. In general, access to potentially identifiable human data (e.g., MRI data) must be 'restricted' and requires authentication by the user, after which the user has to agree with the specified Data Use Agreement before access is allowed. This is required to protect the privacy of our research participants. Anonymous access to 100% anonymized data is allowed by selecting a general Data Use Agreement or license (that was not specifically designed for RU / DI).
