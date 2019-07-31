@@ -11,3 +11,4 @@ Get started using the data repository in the following sections
     Login in Portal <get-started/login-portal.rst>
     Edit your collection details <get-started/edit-your-collection-details.rst>
     Receive email notifications <get-started/receive-email-notifications.rst>
+    Deposit data <get-started/deposit-data.rst>
