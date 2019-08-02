@@ -18,7 +18,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../tools/sphinx/extensions'))
+sys.path.insert(0, os.path.abspath('../../build/tools/sphinx/extensions'))
 sys.path.insert(0, os.path.abspath('./extensions'))
 
 # -- General configuration ------------------------------------------------
