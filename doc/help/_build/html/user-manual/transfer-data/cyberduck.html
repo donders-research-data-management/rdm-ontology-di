@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cyberduck &#8212; Donders Repository Online Help 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/preview.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Thunar" href="thunar.html" />
+    <link rel="prev" title="Mount network drive" href="mount-network-drive.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="cyberduck">
+<span id="id1"></span><h1>Cyberduck</h1>
+<p>For Windows and MacOSX users, the recommended WebDAV client is Cyberduck.</p>
+<p><em>Please do not use older versions of Cyberduck than version 4.8.4. Cyberduck interface for MacOSX is very similar so it will not be described separately.</em></p>
+<div class="section" id="install-cyberduck">
+<h2>Install Cyberduck</h2>
+<p>Download the installer from software's website and follow instructions step-by-step while executing the installer. You need administrator rights to install Cyberduck software on your computer.</p>
+<div class="figure align-default">
+<img alt="../../_images/cd1.png" src="../../_images/cd1.png" />
+</div>
+</div>
+<div class="section" id="start-with-cyberduck">
+<h2>Start with cyberduck</h2>
+<p>When you open Cyberduck after installation, the interface looks like this:</p>
+<div class="figure align-default">
+<img alt="../../_images/cd2.png" src="../../_images/cd2.png" />
+</div>
+<p>To view, upload and download files you need to create a new bookmark. Click on the &quot;+&quot; sign to create a new bookmark.</p>
+<div class="figure align-default">
+<img alt="../../_images/cd3.png" src="../../_images/cd3.png" />
+</div>
+<p>A new pop-up window will appear. In this window you must configure the bookmark as follows:</p>
+<ul class="simple">
+<li><p><strong>WebDAV (HTTP/SSL)</strong></p></li>
+<li><p><strong>Nickname: add a freely chosen nickname to the new connection</strong></p></li>
+<li><p>Server: <strong>webdav.data.donders.ru.nl</strong></p></li>
+<li><p>Port: <strong>443</strong></p></li>
+<li><p>Username: the <em>username</em> (CASE SENSITIVE!) of the <a class="reference internal" href="data-access-account.html#data-access-account"><span class="std std-ref">data access account</span></a></p></li>
+</ul>
+<p>The configurations are saved to the bookmark automatically. Just close the configuration window when you are done.</p>
+<div class="figure align-default">
+<img alt="../../_images/cd4.png" src="../../_images/cd4.png" />
+</div>
+<p>Double-click on the saved bookmark to make connection.</p>
+<div class="figure align-default">
+<img alt="../../_images/cd5.png" src="../../_images/cd5.png" />
+</div>
+<p>You will be asked to provide the username and password of your <a class="reference internal" href="data-access-account.html#data-access-account"><span class="std std-ref">data access account</span></a> to login window of Cyberduck. In that window, make sure you tick the option Save password (MacOSX: &quot;Add to Keychain&quot;).</p>
+<div class="figure align-default">
+<img alt="../../_images/cd6.png" src="../../_images/cd6.png" />
+</div>
+</div>
+<div class="section" id="transferring-data">
+<h2>Transferring Data</h2>
+<p>After your login, you will see four directories: one for each organizational unit of the Donders Institute.</p>
+<div class="figure align-default">
+<img alt="../../_images/cd7.png" src="../../_images/cd7.png" />
+</div>
+<p>In the subtree of a particular organizational unit, you will see directories of collections in which you are authorized for data access (i.e., you are a viewer, contributor or manager of the corresponding collection). As a viewer of a collection, you are only allowed to download data from that collection. As a contributor or manager, you are also allowed to upload and modify data.</p>
+<p>After entering a collection's directory you can download data by selecting files/directories followed by clicking the &quot;Action&quot; button on the menu bar. In the drop-down menu, choose one of the download options and follow the dialog to save them locally.</p>
+<div class="figure align-default">
+<img alt="../../_images/cd8.png" src="../../_images/cd8.png" />
+</div>
+<p>Upload a file/directory by selecting the Action button on the menu bar. A dialog window will pop-up for you to select local files to upload. See the screenshot below:</p>
+<div class="figure align-default">
+<img alt="../../_images/cd9.png" src="../../_images/cd9.png" />
+</div>
+<div class="note alert alert-info admonition" id="dr-note-0">
+<p class="admonition-title">INFO</p>
+<p>If the WebDAV client (i.e. Cyberduck) is inactive for two hours (e.g. no browsing or data transfer activities), you will be logged out automatically by the WebDAV server. In this case, you will have to login again with your <a class="reference internal" href="data-access-account.html#data-access-account"><span class="std std-ref">data access account</span></a>.</p>
+</div>
+<p>If you try to upload files to a directory for which you are not authorized (i.e., you are not a contributor or manager of the corresponding collection), you will get an Internal Server Error message similar to the screenshot below.</p>
+<div class="figure align-default">
+<img alt="../../_images/cd10.png" src="../../_images/cd10.png" />
+</div>
+</div>
+<div class="section" id="read-more-about-the-content-of-collections">
+<h2>Read more about the content of collections</h2>
+<ul class="simple">
+<li><p>What files should I upload in different collections? Read the FAQ about files in the Data Aquisition Collection (<a class="reference internal" href="../../faq/organise-data-collections.html#faq-dac-files"><span class="std std-ref">DAC</span></a>), Research Documentation Collection (<a class="reference internal" href="../../faq/organise-data-collections.html#faq-rdc-files"><span class="std std-ref">RDC</span></a>) and Data Sharing Collection (<a class="reference internal" href="../../faq/publish-data.html#faq-dsc-files"><span class="std std-ref">DSC</span></a>)?</p></li>
+<li><p>How should I organize my data? Read the FAQ about organizing data in a <a class="reference internal" href="../../faq/organise-data-collections.html#faq-dac-organisation"><span class="std std-ref">DAC</span></a> and <a class="reference internal" href="../../faq/organise-data-collections.html#faq-rdc-organisation"><span class="std std-ref">RDC</span></a>?</p></li>
+<li><p><a class="reference internal" href="../../faq/organise-data-collections.html#faq-where-store-personal-information"><span class="std std-ref">Where should I store personal information about the participants?</span></a></p></li>
+<li><p><a class="reference internal" href="../../faq/organise-data-collections.html#faq-refer-data-not-collected-by-researcher"><span class="std std-ref">How to refer to data that the researcher did not collect?</span></a></p></li>
+<li><p><a class="reference internal" href="../../faq/organise-data-collections.html#faq-document-experimental-setup"><span class="std std-ref">How should I document the experimental setup?</span></a></p></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Donders Institute.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/user-manual/transfer-data/cyberduck.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

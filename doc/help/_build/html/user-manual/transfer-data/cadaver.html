@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cadaver &#8212; Donders Repository Online Help 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/preview.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Check transferred data" href="check-transferred-data.html" />
+    <link rel="prev" title="Thunar" href="thunar.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="cadaver">
+<span id="id1"></span><h1>Cadaver</h1>
+<p>For Linux users who don't work with a graphical desktop environment, the recommended command-line tool is Cadaver.</p>
+<div class="section" id="install-cadaver">
+<h2>Install cadaver</h2>
+<p>For help installing Cadaver on your Linux device please contact <a class="reference external" href="mailto:datasupport&#37;&#52;&#48;donders&#46;ru&#46;nl">datasupport<span>&#64;</span>donders<span>&#46;</span>ru<span>&#46;</span>nl</a>.</p>
+</div>
+<div class="section" id="start-with-cadaver">
+<h2>Start with cadaver</h2>
+<p>The following section will demonstrate how to transfer files to the repository using Cadaver. Find a command reference for Cadaver <a class="reference internal" href="#cadaver-command-reference"><span class="std std-ref">here</span></a>.</p>
+<p>Open the Linux terminal and type the following command.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ cadaver https://webdav.data.donders.ru.nl
+</pre></div>
+</div>
+<p>You will be asked to provide the <em>username</em> (CASE SENSITIVE!) and <em>password</em> of your <a class="reference internal" href="data-access-account.html#data-access-account"><span class="std std-ref">data access account</span></a>.</p>
+<div class="figure align-default">
+<img alt="../../_images/cadaver-username.png" src="../../_images/cadaver-username.png" />
+</div>
+</div>
+<div class="section" id="navigating-local-and-remote-directories">
+<h2>Navigating local and remote directories</h2>
+<p>Once you login to the WebDAV service, you are in the root directory. It allows you to navigate to the different Donders Institute organizational units. Type the following command to list the content of the current collection.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ ls
+</pre></div>
+</div>
+<div class="figure align-default">
+<img alt="../../_images/cadaver-root.png" src="../../_images/cadaver-root.png" />
+</div>
+<p>This example will load files to a collection from the organizational unit DCC.</p>
+<p>In the subtree of a particular organizational unit, you will see the directories of all its collections. You can only see these collections if you are authorized (i.e., if you are a viewer, contributor or manager of the corresponding collection). As a viewer of a collection, you are only allowed to download data from that collection. As a contributor or manager, you are also allowed to upload and modify data.</p>
+<p>Change directory to the DCC and list the collections available for the user in this example.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> dcc
+$ ls
+</pre></div>
+</div>
+<div class="figure align-default">
+<img alt="../../_images/cadaver-my-root.png" src="../../_images/cadaver-my-root.png" />
+</div>
+<p>Change directory to the DAC and list the content of the DAC.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> DAC_DEMO_DCC_4Doc_613
+$ ls
+</pre></div>
+</div>
+<div class="figure align-default">
+<img alt="../../_images/cadaver-empty-dac.png" src="../../_images/cadaver-empty-dac.png" />
+</div>
+<p>The DSC is still empty, let&amp;rsquo;s upload a first file. The following commands will display the current local directory and list files and folders in it.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ lpwd
+$ lls
+</pre></div>
+</div>
+<div class="figure align-default">
+<img alt="../../_images/cadaver-list-localdir.png" src="../../_images/cadaver-list-localdir.png" />
+</div>
+<p>Now let's upload the file <cite>tryme.py</cite> to the DAC</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ put tryme.py
+$ ls
+</pre></div>
+</div>
+<div class="figure align-default">
+<img alt="../../_images/cadaver-upload1file.png" src="../../_images/cadaver-upload1file.png" />
+</div>
+<p>In the local folder <cite>playfiles</cite> there are four files. Here we navigate to that folder and list its contents:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ lcd playfiles
+$ lls
+</pre></div>
+</div>
+<div class="figure align-default">
+<img alt="../../_images/cadaver-listlocalfolder.png" src="../../_images/cadaver-listlocalfolder.png" />
+</div>
+<p>The following commands will create a new folder in the DAC and upload the four files at the same time.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ mkcol playfiles
+$ <span class="nb">cd</span> playfiles
+$ mput playfile*
+</pre></div>
+</div>
+<div class="figure align-default">
+<img alt="../../_images/cadaver-uploadnfiles.png" src="../../_images/cadaver-uploadnfiles.png" />
+</div>
+<p>In the Command list below, we list more commands that show you e.g. how to delete folders and files from the DAC. If you try to upload files to a directory for which you are not authorized (i.e., you are not a contributor or manager of the corresponding collection), you will get an Internal Server Error. Below, we give an example that was obtained by trying to upload the file tryme.py to the collection RDC_Demo_4Doc_364, in which you only have the viewer role.</p>
+<div class="figure align-default">
+<img alt="../../_images/cadaver-internalservererror.png" src="../../_images/cadaver-internalservererror.png" />
+</div>
+<p>As last example we show you how to download a file with the command get.</p>
+<div class="figure align-default">
+<img alt="../../_images/cadaver-download.png" src="../../_images/cadaver-download.png" />
+</div>
+</div>
+<div class="section" id="read-more-about-the-content-of-collections">
+<h2>Read more about the content of collections</h2>
+<ul class="simple">
+<li><p>What files should I upload in different collections? Read the FAQ about files in the Data Aquisition Collection (<a class="reference internal" href="../../faq/organise-data-collections.html#faq-dac-files"><span class="std std-ref">DAC</span></a>), Research Documentation Collection (<a class="reference internal" href="../../faq/organise-data-collections.html#faq-rdc-files"><span class="std std-ref">RDC</span></a>) and Data Sharing Collection (<a class="reference internal" href="../../faq/publish-data.html#faq-dsc-files"><span class="std std-ref">DSC</span></a>)?</p></li>
+<li><p>How should I organize my data? Read the FAQ about organizing data in a <a class="reference internal" href="../../faq/organise-data-collections.html#faq-dac-organisation"><span class="std std-ref">DAC</span></a> and <a class="reference internal" href="../../faq/organise-data-collections.html#faq-rdc-organisation"><span class="std std-ref">RDC</span></a>?</p></li>
+<li><p><a class="reference internal" href="../../faq/organise-data-collections.html#faq-where-store-personal-information"><span class="std std-ref">Where should I store personal information about the participants?</span></a></p></li>
+<li><p><a class="reference internal" href="../../faq/organise-data-collections.html#faq-refer-data-not-collected-by-researcher"><span class="std std-ref">How to refer to data that the researcher did not collect?</span></a></p></li>
+<li><p><a class="reference internal" href="../../faq/organise-data-collections.html#faq-document-experimental-setup"><span class="std std-ref">How should I document the experimental setup?</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="command-list">
+<span id="cadaver-command-reference"></span><h2>Command list</h2>
+<table class="table table-bordered table-striped docutils align-default">
+<colgroup>
+<col style="width: 43%" />
+<col style="width: 57%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Command</strong></p></th>
+<th class="head"><p><strong>Function</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>help [<em>command</em>]</p></td>
+<td><p>Display help message of a cadaver <em>command</em>.</p></td>
+</tr>
+<tr class="row-odd"><td><p>cadaver <a class="reference external" href="https://webdav.data.donders.ru.nl">https://webdav.data.donders.ru.nl</a></p></td>
+<td><p>Log into the WebDAV server.</p></td>
+</tr>
+<tr class="row-even"><td><p>cd [<em>path</em>]</p></td>
+<td><p>Change working collection referred by <em>path</em></p></td>
+</tr>
+<tr class="row-odd"><td><p>lcd [<em>path</em>]</p></td>
+<td><p>Change local working directory referred by <em>path</em>.</p></td>
+</tr>
+<tr class="row-even"><td><p>ls [<em>path</em>]</p></td>
+<td><p>List contents in current or other collection by <em>path</em>.</p></td>
+</tr>
+<tr class="row-odd"><td><p>lls [<em>options</em>]</p></td>
+<td><p>Display local directory listing.</p></td>
+</tr>
+<tr class="row-even"><td><p>pwd</p></td>
+<td><p>Display name of current collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p>put <em>local</em> [<em>remote</em>]</p></td>
+<td><p>Upload <em>local</em> file to <em>remote</em> resource.</p></td>
+</tr>
+<tr class="row-even"><td><p>get <em>remote</em> [<em>local</em>]</p></td>
+<td><p>Download <em>remote</em> resource to <em>local</em> file.</p></td>
+</tr>
+<tr class="row-odd"><td><p>mget <em>remote</em></p></td>
+<td><p>Download many <em>remote</em> resources.</p></td>
+</tr>
+<tr class="row-even"><td><p>mput <em>local</em></p></td>
+<td><p>Upload many <em>local</em> files.</p></td>
+</tr>
+<tr class="row-odd"><td><p>edit <em>remote</em></p></td>
+<td><p>Edit <em>remote</em> resource.</p></td>
+</tr>
+<tr class="row-even"><td><p>mkcol <em>remote</em></p></td>
+<td><p>Create <em>remote</em> collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p>cat <em>remote</em></p></td>
+<td><p>Display <em>remote</em> resource(s).</p></td>
+</tr>
+<tr class="row-even"><td><p>delete <em>remote</em></p></td>
+<td><p>Delete <em>remote</em> non-collection resource.</p></td>
+</tr>
+<tr class="row-odd"><td><p>rmcol <em>remote</em></p></td>
+<td><p>Delete <em>remote</em> collection.</p></td>
+</tr>
+<tr class="row-even"><td><p>copy <em>source...</em> <em>destination</em></p></td>
+<td><p>Copy resource(s) to <em>destination</em>.</p></td>
+</tr>
+<tr class="row-odd"><td><p>move <em>source...</em> <em>destination</em></p></td>
+<td><p>Move resource(s) to <em>destination</em>.</p></td>
+</tr>
+<tr class="row-even"><td><p>close</p></td>
+<td><p>Close current connection.</p></td>
+</tr>
+<tr class="row-odd"><td><p>quit</p></td>
+<td><p>Exit program.</p></td>
+</tr>
+<tr class="row-even"><td><p>logout</p></td>
+<td><p>Logout current authenticated session.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+          
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Donders Institute.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/user-manual/transfer-data/cadaver.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

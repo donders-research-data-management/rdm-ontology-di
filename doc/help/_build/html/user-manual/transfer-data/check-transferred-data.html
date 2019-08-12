@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Check transferred data &#8212; Donders Repository Online Help 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/preview.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Archive and publish collections" href="../archive-publish-collections.html" />
+    <link rel="prev" title="Cadaver" href="cadaver.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="check-transferred-data">
+<span id="id1"></span><h1>Check transferred data</h1>
+<p>After transferring files (uploading or downloading) between the repository and your computer you need to make sure all the files are transferred completely. Especially when transferring a large number of files and/or large files, something can go wrong along the way (e.g., short interruption in the network connection, unexpected downtime of the server, etc.).</p>
+<p>To check the presence (i.e. the number) and the content of the files, you can use the <em>manifest file</em> for the collection. This contains a list of all files with a checksum for each. You can download the manifest file from the manifest tab on the collection's page.</p>
+<div class="figure align-default">
+<img alt="../../_images/manifest_file.jpg" src="../../_images/manifest_file.jpg" />
+</div>
+<p>After downloading the manifest file, move it to the folder on your computer that contains the local copy of the files from the repository.</p>
+<p>The subsequent instructions depend on your computer's operating system. Choose the appropriate option.</p>
+<ol class="arabic simple">
+<li><p><a class="reference internal" href="#check-transferred-data-windows"><span class="std std-ref">Windows</span></a></p></li>
+<li><p><a class="reference internal" href="#check-transferred-data-linux"><span class="std std-ref">Linux and Mac OSX</span></a></p></li>
+</ol>
+<p>Common problems:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../../faq/transfer-data.html#faq-files-without-checksum"><span class="std std-ref">Why are there files without checksum in the manifest file?</span></a></p></li>
+<li><p><a class="reference internal" href="../../faq/transfer-data.html#faq-download-manifest-timeout"><span class="std std-ref">It took very long time to download the manifest file; and eventually failed with the &quot;504 Gateway Time-out&quot; error. What should I do?</span></a></p></li>
+</ul>
+<div class="section" id="windows">
+<span id="check-transferred-data-windows"></span><h2>Windows</h2>
+<ol class="arabic">
+<li><p>Download the Hashcheck tool</p>
+<p>Go to <a class="reference external" href="https://github.com/gurnec/HashCheck/releases/tag/v2.4.0">https://github.com/gurnec/HashCheck/releases/tag/v2.4.0</a> and download the file: <cite>HashCheckSetup-v2.4.0.exe</cite>.</p>
+<div class="figure align-default">
+<img alt="../../_images/cs_1.png" src="../../_images/cs_1.png" />
+</div>
+<p>Run the executable file (<cite>HashCheckSetup-v2.4.0.exe</cite>) and install the Hashcheck tool (you need administrator rights of the computer for this). Restart your computer after the installation.</p>
+<div class="figure align-default">
+<img alt="../../_images/cs_2.png" src="../../_images/cs_2.png" />
+</div>
+</li>
+</ol>
+<p>Hashcheck only needs to be installed once; after installation, you can use it for all your future file transferring.</p>
+<ol class="arabic">
+<li><p>Change the manifest file's extension from <cite>.txt</cite> to <cite>.sha256</cite></p>
+<p>After this change of the extension, Windows will open the file with HashCheck instead of Notepad when double-clicking on it.</p>
+<p>If the file extensions are not visible, go to the start menu of your computer, search for <em>Folder options</em> and select the top option - <em>Folder options.</em>; Select <em>View</em> on the top menu. Remove the tick from <em>Hide extensions for known file types</em>. Click on <em>OK</em>.</p>
+</li>
+<li><p>Check for correct file transferred</p>
+<p>Double-click on the manifest file to open the HashCheck application. This will open a window that lists the files that are matched and non-matched. Note that computing the checksum can take some time, especially if there are many and/or large files.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="linux-mac-osx">
+<span id="check-transferred-data-linux"></span><h2>Linux/Mac OSX</h2>
+<p>Open the command window/terminal and change directory to folder that contains the local copy of the files from the repository.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/Download/MyCollectionName
+</pre></div>
+</div>
+<p>in which <cite>MyCollectionName</cite> is the name of the folder on your local computer that must contain the same files as the collection in the repository.</p>
+<ol class="arabic">
+<li><p>Check the success of file transferred</p>
+<p>For Linux check the success of transferring process with the sha256sum command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sha256sum -c ~/Download/ManifestFile.txt
+</pre></div>
+</div>
+<p>Most linux distributions come with the sha256sum utility. If sha256sum is not installed on your computer, you can do:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ apt-get install coreutils
+</pre></div>
+</div>
+<p>for Debian and Ubuntu-based distributions, or</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ yum install coreutils
+</pre></div>
+</div>
+<p>for RedHat, Fedora and CentOS-based distributions.</p>
+<p>For Mac OS-X check the success of transferring process with the shasum command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ shasum -a <span class="m">256</span> -c ~/Download/ManifestFile.txt
+</pre></div>
+</div>
+<p>If shasum is not installed on your system, you can use Homebrew to install it. See <a class="reference external" href="http://brew.sh">http://brew.sh</a> for details.</p>
+<p>In these commands <cite>ManifestFile</cite> is the name of the manifest file downloaded from the repository. This reports the matched and non-matched files within the collection directory</p>
+<p>To see only the names of the non-matched files, use the following command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ shasum -a <span class="m">256</span> -c ~/Download/ManifestFile.txt <span class="p">|</span> grep -v <span class="s1">&#39;OK&#39;</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+          
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Donders Institute.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/user-manual/transfer-data/check-transferred-data.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
