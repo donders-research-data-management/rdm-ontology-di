@@ -42,3 +42,30 @@ Tags from DR extension
             :mode: danger
 
             This is a danger note made with DR extension.
+
+Here are few example syntaxes for commonly used structures:
+
+Title
+=====
+
+this is the first paragraph
+
+subtitle
+--------
+
+* b1
+* b2
+
+#. n1
+#. n2
+
+`link <https:\\google.com>`_
+
+:dua:`CC-BY-4`
+
++---------------------+--------------------------+
+| HEAD 1 1st line     | HEAD 2 1st line          |
+| (2nd line)          | (2nd line)               |
++=====================+==========================+
+| row 1, col 1        | row 1, col 2             |
++---------------------+--------------------------+
