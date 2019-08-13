@@ -6,7 +6,7 @@
 **/keyword/*.json
 /privacy/privacy_policy.html
 .idea
-*/_build
+**/_build
 build.txt.dist
 */dist
 rdm-configurable-content*.tar.gz
