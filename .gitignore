@@ -8,7 +8,7 @@
 .idea
 **/_build
 build.txt.dist
-*/dist
+**/dist
 rdm-configurable-content*.tar.gz
 
 /external_urls_DEV.json
