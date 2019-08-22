@@ -27,7 +27,7 @@ Repository users can have different predefined roles in a collection. These role
 
 Collections are always initiated by one of the research **administrators** that is part of the DI's administrative staff. As a part of the initiation, the research administrator assigns a manager to the collection; typically this is the supervisor of the research project to which this collection belongs. A collection manager can add other users to the collection in the role of manager, and these then obtain the same rights.
 
-The three collections are built at different stages of a research project, see the figure below. For how to request the three collections, please check the DI `Intranet <https://intranet.donders.ru.nl/index.php?id=5041>`_ (for researchers in the DCC) or the DI `Intranet <https://intranet.donders.ru.nl/index.php?id=4977>`_ (for researchers in the DCCN). Note that an empirical research project can start from existing DACs and/or DSCs, and therefore it is not required that new data have to be acquired for such a project.
+The three collections are built at different stages of a research project, see the figure below. For how to request the three collections, please check the DI `Intranet (for researchers in DCC) <https://intranet.donders.ru.nl/index.php?id=5041>`_ or the DI `Intranet (for researchers in DCCN) <https://intranet.donders.ru.nl/index.php?id=4977>`_. Note that an empirical research project can start from existing DACs and/or DSCs, and therefore it is not required that new data have to be acquired for such a project.
 
 .. figure:: images/research_circle.png
    :scale: 100%
