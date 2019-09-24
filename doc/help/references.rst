@@ -10,4 +10,4 @@ Read the official protocol that describes the correct conduct and procedures to 
 
 Read more about the privacy policy regarding the use of the Donders Research Data Repository.
 
-* :download:`Privacy Policy <documents/privacy_policy_16-02-2017.pdf>`
+* :download:`Privacy Policy <documents/privacy_policy_24-09-2019.pdf>`
