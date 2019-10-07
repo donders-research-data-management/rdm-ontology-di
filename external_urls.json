@@ -5,6 +5,10 @@
   "dataUseAgreement" : "/doc/dua/data_use_agreement.json",
   "dataUseAgreementContents" : "/doc/dua/{id}.html",
 
+  "associatedData" : "/doc/....json",
+  "associatedAnalysisTools" : "/doc/....json",
+  "associatedPreregistration" : "/doc/....json",
+
   "legal" : "/doc/privacy_policy.html",
   "login" : "/doc/login.html",
   "logout" : "/doc/logout.html",
