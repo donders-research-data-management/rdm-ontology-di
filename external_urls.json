@@ -1,13 +1,12 @@
 {
   "controlledVocabularies" : "/doc/keyword/",
   "publicationSystems" : "/doc/publication/publication_system.json",
+  "dataPublicationSystems" : "/doc/publication/data_publication_system.json",
+  "analysisToolsPublicationSystems" : "/doc/publication/analysistools_publication_system.json",
+  "preregistrationPublicationSystems" : "/doc/publication/preregistration_publication_system.json",
   "ethicalReviewBoards" : "/doc/ethics/ethics_review_board.json",
   "dataUseAgreement" : "/doc/dua/data_use_agreement.json",
   "dataUseAgreementContents" : "/doc/dua/{id}.html",
-
-  "associatedData" : "/doc/....json",
-  "associatedAnalysisTools" : "/doc/....json",
-  "associatedPreregistration" : "/doc/....json",
 
   "legal" : "/doc/privacy_policy.html",
   "login" : "/doc/login.html",
