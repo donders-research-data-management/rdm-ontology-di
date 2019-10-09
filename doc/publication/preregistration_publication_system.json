@@ -1,0 +1,27 @@
+[
+   {
+      "scheme":"ClinicalTrials",
+      "system":"Clinical trials",
+      "urlPrefix":"https://clinicaltrials.gov/ct2/show/"
+   },
+   {
+      "scheme":"DOI",
+      "system":"Digital object identifier",
+      "urlPrefix":"https://doi.org/"
+   },
+   {
+      "scheme":"ePIC",
+      "system":"European persistent identifier consortium",
+      "urlPrefix":"http://hdl.handle.net/"
+   },
+   {
+      "scheme":"handle",
+      "system":"Handle persistent identifier",
+      "urlPrefix":"http://hdl.handle.net/"
+   },
+   {
+      "scheme":"URL",
+      "system":"Uniform Resource Identifier",
+      "urlPrefix":null
+   }
+]

@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "DataPublicationSystem",
+    "description": "List of Data Publication Systems",
+    "type": "array",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "required": ["scheme","system","urlPrefix"],
+        "properties": {
+            "scheme": {
+                 "description": "Scheme of the data publication system",
+                 "type": "string"
+             },
+            "system": {
+                 "description": "Name of the data publication system",
+                 "type": "string"
+             },
+            "urlPrefix": {
+                 "description": "URL prefix of the data publication system",
+                 "type": ["string","null"]
+             }
+        }
+    }
+}

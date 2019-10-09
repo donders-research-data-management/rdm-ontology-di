@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "AnalysisToolsPublicationSystem",
+    "description": "List of Analysis Tools Publication Systems",
+    "type": "array",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "required": ["scheme","system","urlPrefix"],
+        "properties": {
+            "scheme": {
+                 "description": "Scheme of the analysis tools publication system",
+                 "type": "string"
+             },
+            "system": {
+                 "description": "Name of the analysis tools publication system",
+                 "type": "string"
+             },
+            "urlPrefix": {
+                 "description": "URL prefix of the analysis tools publication system",
+                 "type": ["string","null"]
+             }
+        }
+    }
+}
