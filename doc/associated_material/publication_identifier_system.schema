@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "PublicationSystem",
-    "description": "List of Publication Systems",
+    "title": "PublicationIdentifierSystem",
+    "description": "List of Publication Identifier Systems",
     "type": "array",
     "uniqueItems": true,
     "items": {
@@ -9,15 +9,15 @@
         "required": ["scheme","system","urlPrefix"],
         "properties": {
             "scheme": {
-                 "description": "Scheme of the publication system",
+                 "description": "Scheme of the publication identifier system",
                  "type": "string"
              },
             "system": {
-                 "description": "Name of the publication system",
+                 "description": "Name of the publication identifier system",
                  "type": "string"
              },
             "urlPrefix": {
-                 "description": "URL prefix of the publication system",
+                 "description": "URL prefix of the publication identifier system",
                  "type": ["string","null"]
              }
         }

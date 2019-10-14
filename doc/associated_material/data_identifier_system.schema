@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "PreregistrationPublicationSystem",
-    "description": "List of Preregistration Publication Systems",
+    "title": "DataIdentifierSystem",
+    "description": "List of Data Identifier Systems",
     "type": "array",
     "uniqueItems": true,
     "items": {
@@ -9,15 +9,15 @@
         "required": ["scheme","system","urlPrefix"],
         "properties": {
             "scheme": {
-                 "description": "Scheme of the preregistration publication system",
+                 "description": "Scheme of the data identifier system",
                  "type": "string"
              },
             "system": {
-                 "description": "Name of the preregistration publication system",
+                 "description": "Name of the data identifier system",
                  "type": "string"
              },
             "urlPrefix": {
-                 "description": "URL prefix of the preregistration publication system",
+                 "description": "URL prefix of the data identifier system",
                  "type": ["string","null"]
              }
         }

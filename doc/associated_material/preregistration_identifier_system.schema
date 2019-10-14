@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "AnalysisToolsPublicationSystem",
-    "description": "List of Analysis Tools Publication Systems",
+    "title": "PreregistrationIdentifierSystem",
+    "description": "List of Preregistration Identifier Systems",
     "type": "array",
     "uniqueItems": true,
     "items": {
@@ -9,15 +9,15 @@
         "required": ["scheme","system","urlPrefix"],
         "properties": {
             "scheme": {
-                 "description": "Scheme of the analysis tools publication system",
+                 "description": "Scheme of the preregistration identifier system",
                  "type": "string"
              },
             "system": {
-                 "description": "Name of the analysis tools publication system",
+                 "description": "Name of the preregistration identifier system",
                  "type": "string"
              },
             "urlPrefix": {
-                 "description": "URL prefix of the analysis tools publication system",
+                 "description": "URL prefix of the preregistration identifier system",
                  "type": ["string","null"]
              }
         }
