@@ -11,7 +11,7 @@ BADGES=$(wildcard ../doc/style/badge*.svg)
 BUILDINFO=build.txt
 COLL_KEYWORDS=$(patsubst %.csv,%.json,$(wildcard ../doc/keyword/*.csv))
 VOC_ETHICAL_REVIEW_BOARD=../doc/ethics/ethics_review_board.json
-VOC_IDENTIFIER_SYSTEM=$(wildcard ../doc/associated_material/*system.json)
+VOC_IDENTIFIER_SCHEME=$(wildcard ../doc/associated_material/*scheme.json)
 CMS_EXT_RSRC_IDX=external_urls.json
 CMS_SNIPPETS_MD=$(patsubst %.md,%.html,$(wildcard doc/privacy/*.md))
 CMS_SNIPPETS_HTML=$(wildcard ../doc/privacy/*.html ../doc/*.html ../doc/email/*.html ../doc/messages/*.html ../doc/changestate/*.html ../doc/login/*.html ../doc/editcollection/*.html ../doc/collection/*.html ../doc/collection/publish/*.html ../doc/collection/archive/*.html)
@@ -23,12 +23,12 @@ DIR_HELPDOC_HTML=_build/$(notdir $(DIR_HELPDOC))
 TMPDIR := $(shell mktemp -d)
 
 #list of JSON files subject for validation
-JSON_FILES=$(wildcard ../doc/dua/*.json) $(VOC_ETHICAL_REVIEW_BOARD) $(VOC_IDENTIFIER_SYSTEM) $(CMS_EXT_RSRC_IDX) $(COLL_KEYWORDS)
+JSON_FILES=$(wildcard ../doc/dua/*.json) $(VOC_ETHICAL_REVIEW_BOARD) $(VOC_IDENTIFIER_SCHEME) $(CMS_EXT_RSRC_IDX) $(COLL_KEYWORDS)
 
 JSON_SCHEMAS=$(wildcard $(patsubst %.json,%.schema,$(JSON_FILES)))
 
 #list of files to be included in distribution or installation
-DIST_FILES=$(DUA) $(LOGOS) $(BACKGROUND) $(BADGES) $(COLL_KEYWORDS) $(VOC_ETHICAL_REVIEW_BOARD) $(VOC_IDENTIFIER_SYSTEM) $(CMS_SNIPPETS_MD) $(CMS_SNIPPETS_HTML) $(COLL_README_TXT)
+DIST_FILES=$(DUA) $(LOGOS) $(BACKGROUND) $(BADGES) $(COLL_KEYWORDS) $(VOC_ETHICAL_REVIEW_BOARD) $(VOC_IDENTIFIER_SCHEME) $(CMS_SNIPPETS_MD) $(CMS_SNIPPETS_HTML) $(COLL_README_TXT)
 
 #constant
 VERSION:=master

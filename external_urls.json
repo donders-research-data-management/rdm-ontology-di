@@ -1,9 +1,9 @@
 {
   "controlledVocabularies" : "/doc/keyword/",
-  "publicationIdentifierSystems" : "/doc/associated_material/publication_identifier_system.json",
-  "dataIdentifierSystems" : "/doc/associated_material/data_identifier_system.json",
-  "analysisToolIdentifierSystems" : "/doc/associated_material/analysis_tool_identifier_system.json",
-  "preregistrationIdentifierSystems" : "/doc/associated_material/preregistration_identifier_system.json",
+  "publicationIdentifierSchemes" : "/doc/associated_material/publication_identifier_scheme.json",
+  "dataIdentifierSchemes" : "/doc/associated_material/data_identifier_scheme.json",
+  "analysisToolIdentifierSchemes" : "/doc/associated_material/analysis_tool_identifier_scheme.json",
+  "preregistrationIdentifierSchemes" : "/doc/associated_material/preregistration_identifier_scheme.json",
   "ethicalReviewBoards" : "/doc/ethics/ethics_review_board.json",
   "dataUseAgreement" : "/doc/dua/data_use_agreement.json",
   "dataUseAgreementContents" : "/doc/dua/{id}.html",
