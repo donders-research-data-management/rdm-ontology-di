@@ -17,10 +17,15 @@ node {
         }
 
         stage('Deploy') {
-            if (env.TAG == 'release') {
-                echo "Deploying to production"
-                sshagent (credentials: ['nonvlinder-credentials']) {
-                    sh 'ssh "nonvlinder" "/opt/tomcat/rdm-configurable-content-donders/build/docker/start-update.sh"'
+            if (env.BRANCH_NAME == 'release') {
+                echo "Deploying new configurable content to production"
+                sshagent (credentials: ['rdr-jenkins-ssh-credentials']) {
+                    sh 'ssh "rdr-donders-prd" "rdm-configurable-content-donders/build/docker/start-update.sh release"'
+                }
+            } else if (env.BRANCH_NAME == 'jenkins') {
+                echo "Deploying new configurable content to acceptance"
+                sshagent (credentials: ['rdr-jenkins-ssh-credentials']) {
+                    sh 'ssh "rdr-donders-acc" "rdm-configurable-content-donders/build/docker/start-update.sh latest"'
                 }
             } else {
                 echo "Not deploying non release tags"
@@ -35,7 +40,7 @@ node {
             echo "Mailing release job status"
             def mailRecipients = env.rdmDondersContentMail
             def jobName = currentBuild.fullDisplayName
-            
+
             if (env.BUILD_FAILURE == null) {
                 echo "Mailing succes"
                 emailext body: '''${SCRIPT, template="groovy-html.template"}''',
