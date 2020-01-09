@@ -46,9 +46,9 @@
   "navbar.helpButton" : "https://data.donders.ru.nl/doc/help/",
   "oneTimePasswordModal.explanationLink" : "/doc/help/user-manual/transfer-data.html",
 
-  "user.researcherId.urlPrefix" : "http://www.researcherid.com/rid/",
-  "user.openResearcherAndContributorId.urlPrefix" : "http://orcid.org/",
-  "collection.mesh2015Keyword.urlPrefix" : "http://id.nlm.nih.gov/mesh/",
+  "user.researcherId.urlPrefix" : "https://www.researcherid.com/rid/",
+  "user.openResearcherAndContributorId.urlPrefix" : "https://orcid.org/",
+  "collection.mesh2015Keyword.urlPrefix" : "https://id.nlm.nih.gov/mesh/",
 
   "message.user.signup": "/doc/signup.html",
 
