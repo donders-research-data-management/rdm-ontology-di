@@ -9,7 +9,7 @@ To check the presence (i.e. the number) and the content of the files, you can us
 
 For collections with a limited number of files, you can download the manifest file from the manifest tab on the collection's page. For collections with a large number of files / folders, contact the system administrator if you need the manifest file.
 
-Note that, for published DSCs and archived DAC/RDCs, the manifest file is available in the collection as part of the data.
+Note that, for published DSCs and archived DAC/RDCs, the manifest file is available in the collection as part of the data (see :ref:`this faq <faq-files-added-to-DSC>`).
 
 .. figure:: images/manifest_file.jpg
 
