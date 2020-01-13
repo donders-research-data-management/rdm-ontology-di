@@ -36,8 +36,8 @@ If all collaborators agree that the collection is complete, click "switch to arc
 
 .. figure:: images/confirm_to_archive.jpg
 
-Now the status of the collection is changed from 'reviewable internal' to 'archived'. A permanent read-only copy of the collection is created. The read-only copy acquires a version number that can be used for future reference.
+Now the status of the collection is changed from 'reviewable internal' to 'archived'. A permanent read-only copy of the collection is created. In addition, a MANIFEST file is added to the collection data. 
 
-At the end of the details of this collection you will see the version details.
+The read-only copy acquires a version number that can be used for future reference. At the end of the details of this collection you will see the version details.
 
 Go to next section :ref:`Publish Data Sharing Collection (DSC) and share data <publish-dsc-share-data>`

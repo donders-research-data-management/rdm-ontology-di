@@ -56,7 +56,7 @@ After the collection is published a permanent read-only copy of the collection w
 
 A few details of a DSC can still be changed - using the "edit metadata" button - after it has been published, e.g., linking publications to it, and changing its collection users.
 
-After the collection is published, a version number (1) is assigned.
+After the collection is published, a version number (1) is assigned. In addition, a MANIFEST, LICENSE and README file are added to the collection data (see :ref:`this faq <faq-files-added-to-DSC>`).
 
 .. figure:: images/metadata_published_collection.jpg
 
