@@ -31,6 +31,7 @@ node {
                 echo "Not deploying non release tags"
             }
         }
+
     } catch(Exception e) {
         echo "Got exception: " + e.getMessage() + " -> " + e.toString()
         env.BUILD_FAILURE = e.getMessage()
