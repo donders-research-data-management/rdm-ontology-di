@@ -284,6 +284,7 @@
         "editCollectionModal.userSearchFormPanel.userSearchOrganisationalUnit" : { "type": "string" },
         "editCollectionModal.userSearchFormPanel.userSearchOrganisationalUnitLabel" : { "type": "string" },
         "editCollectionModal.userSearchFormPanel.userSearchSearchString" : { "type": "string" },
+        "collectionDetail.epicReserved": { "type": "string" },
         "navbar.brandLabel" : { "type": "string" },
         "navbar.toggleNavigationLabel" : { "type": "string" },
         "otp.header-label" : { "type": "string" },
