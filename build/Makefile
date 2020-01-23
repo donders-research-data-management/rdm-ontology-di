@@ -3,6 +3,22 @@ ifndef BASEURL
 BASEURL=/doc
 endif
 
+#define the python version 
+ifndef PYTHON_VERSION 
+PYTHON_VERSION=2
+endif
+
+#switch helper script w.r.t. PYTHON_VERSION
+PY_CSV2JSON=csv2json.py
+PY_EXTERNAL_URL_CHECKER=check-external-urls.py
+PY_JSON_VALIDATOR=json-validator.py
+
+ifeq ($(PYTHON_VERSION), 3)
+PY_CSV2JSON=csv2json.py3
+PY_EXTERNAL_URL_CHECKER=check-external-urls.py3
+PY_JSON_VALIDATOR=json-validator.py3
+endif
+
 #files to be included in the distribution
 DUA=$(wildcard ../doc/dua/*)
 LOGOS=$(wildcard ../doc/style/logo*.png)
@@ -45,7 +61,7 @@ help: $(DIR_HELPDOC_HTML)
 
 $(COLL_KEYWORDS):
 	@echo "--> converting keyword: $@"
-	python "$(shell pwd)/tools/csv2json.py" "$(patsubst %.json,%.csv,$@)" "$@"
+	python "$(shell pwd)/tools/$(PY_CSV2JSON)" "$(patsubst %.json,%.csv,$@)" "$@"
 
 $(CMS_SNIPPETS_MD):
 	@echo "--> converting HTML snippet: $@"
@@ -73,12 +89,12 @@ validate_json: $(JSON_SCHEMAS)
 
 $(JSON_SCHEMAS):
 	@echo "--> validating JSON document: $(patsubst %.schema,%.json,$@)"
-	@python "$(shell pwd)/tools/json-validator.py" "$(patsubst %.schema,%.json,$@)" "$@"
+	@python "$(shell pwd)/tools/$(PY_JSON_VALIDATOR)" "$(patsubst %.schema,%.json,$@)" "$@"
 
 # make distribution tarball
 dist: $(DIST_ZIP)
 	@echo "--> checking resource availability ..."
-	@python "$(shell pwd)/tools/check-external-urls.py" -p $(BASEURL) -l 3 -i $(CMS_EXT_RSRC_IDX) $(DIST_ZIP)
+	@python "$(shell pwd)/tools/$(PY_EXTERNAL_URL_CHECKER)" -p $(BASEURL) -l 3 -i $(CMS_EXT_RSRC_IDX) $(DIST_ZIP)
 
 $(BUILDINFO):
 	@if [ -f $@ ]; then cp $@ $@.dist; else touch $@.dist; fi
