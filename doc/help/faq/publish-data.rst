@@ -90,7 +90,7 @@ Publish data
 
     After publication of the DSC, a MANIFEST, LICENSE and README file are autamatically added to the collection data. 
     
-    The MANIFEST file contains a list of all files in the collection with a checksum for each, to check the presence and content of the collection files (see :ref:`here <check-transferred data>`).
+    The MANIFEST file contains a list of all files in the collection with a checksum for each, to check the presence and content of the collection files (see :ref:`here <check-transferred-data>`).
 
     The LICENSE file contains the selected :ref:` Data Use Agreement <faq-data-use-agreement>`.
 
