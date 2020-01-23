@@ -135,7 +135,7 @@ Publish data
 
     - The Radboud University and the Donders Institute for Brain, Cognition and Behaviour will keep these shared data available for at least 10 years.
 
-10.  **Can I share my data without the need for the downloading user to register an account?**
+10. **Can I share my data without the need for the downloading user to register an account?**
 
     Yes, but it depends on the type of data you share, and the data use agreement you select, see :dua:`this page <index>`. In general, access to potentially identifiable human data (e.g., MRI data) must be 'restricted' and requires authentication by the user, after which the user has to agree with the specified Data Use Agreement before access is allowed. This is required to protect the privacy of our research participants. Anonymous access to 100% anonymized data is allowed by selecting a general Data Use Agreement or license (that was not specifically designed for RU / DI).
 
