@@ -58,6 +58,8 @@
   "login.authenticationHash.success.message": "/doc/login/hashSignInSuccess.html",
   "login.authenticationHash.failed.message": "/doc/login/hashSignInFailed.html",
 
+  "collectionDetail.epicReserved": "https://data.donders.ru.nl/doc/help/faq/publish-data.html#faq-persistent-identifier-DR",
+
   "collection.tab.metadata.filesNotPresent" : "/doc/collection/metadata_files_not_present.html",
   "collection.tab.metadata.filesAccessible" : "/doc/collection/metadata_files_accessible.html",
   "collection.tab.metadata.filesRequestable" : "/doc/collection/metadata_files_requestable.html",
