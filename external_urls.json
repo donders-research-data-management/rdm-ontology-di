@@ -43,7 +43,7 @@
   "editCollectionModal.form.sfnKeywordsLabel" : "/doc/help/faq/edit-collection-metadata.html#faq-keyword-sfn",
   "editCollectionModal.header-label" : "/doc/help/faq/edit-collection-metadata.html",
 
-  "navbar.helpButton" : "https://data.donders.ru.nl/doc/help/",
+  "navbar.helpButton" : "/doc/help/",
   "oneTimePasswordModal.explanationLink" : "/doc/help/user-manual/transfer-data.html",
 
   "user.researcherId.urlPrefix" : "https://www.researcherid.com/rid/",
@@ -58,7 +58,7 @@
   "login.authenticationHash.success.message": "/doc/login/hashSignInSuccess.html",
   "login.authenticationHash.failed.message": "/doc/login/hashSignInFailed.html",
 
-  "collectionDetail.epicReserved": "https://data.donders.ru.nl/doc/help/faq/publish-data.html#faq-persistent-identifier-dr",
+  "collectionDetail.epicReserved": "/doc/help/faq/publish-data.html#faq-persistent-identifier-dr",
 
   "collection.tab.metadata.filesNotPresent" : "/doc/collection/metadata_files_not_present.html",
   "collection.tab.metadata.filesAccessible" : "/doc/collection/metadata_files_accessible.html",
