@@ -15,7 +15,7 @@ services:
        max-file: "2"
     restart: unless-stopped
     networks:
-      - rdm-network
+      - rdr-network
 networks:
-  rdm-network:
+  rdr-network:
     external: true
