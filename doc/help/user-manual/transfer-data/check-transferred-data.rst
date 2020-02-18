@@ -5,9 +5,9 @@ Check transferred data
 
 After transferring files (uploading or downloading) between the repository and your computer you need to make sure all the files are transferred completely. Especially when transferring a large number of files and/or large files, something can go wrong along the way (e.g., short interruption in the network connection, unexpected downtime of the server, etc.).
 
-To check the presence (i.e. the number) and the content of the files, you can use the *manifest file* for the collection. This contains a list of all files with a checksum for each. 
+To check the presence (i.e. the number) and the content of the files, you can use the *manifest file* for the collection. This contains a list of all files with a checksum for each.
 
-For collections with a limited number of files, you can download the manifest file from the manifest tab on the collection's page. For collections with a large number of files / folders, contact the system administrator if you need the manifest file.
+For collections with a limited number of files, you can download the manifest file from the manifest tab on the collection's page. For collections with a large number of files / folders, contact `datasupport@donders.ru.nl <datasupport@donders.ru.nl>`_ if you need the manifest file.
 
 Note that, for published DSCs and archived DAC/RDCs, the manifest file is available in the collection as part of the data (see :ref:`this faq <faq-files-added-to-DSC>`).
 
