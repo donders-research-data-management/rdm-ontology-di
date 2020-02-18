@@ -46,13 +46,13 @@ When the manuscript is accepted for publication, the Data Sharing Collection sho
 .. figure:: images/switch_to_published.jpg
 
 .. note::
-    
-    Keep in mind that this step is irreversible! See below for information about re-opening a published collection. Note that the *actual* publication process takes some time (e.g., several minutes or hours), depending on the size of the data collection. 
-    
+
+    Keep in mind that this step is irreversible! See below for information about re-opening a published collection. Note that the *actual* publication process takes some time (e.g., several minutes or hours), depending on the size of the data collection.
+
 
 .. figure:: images/collection_being_published.png
 
-After the collection is published a permanent read-only copy of the collection will be created and the :ref:`persistent identifier <faq-persistent-identifier-DR>` that was assigned will become active. The persistent identifier can be used for future references. 
+After the collection is published a permanent read-only copy of the collection will be created and the :ref:`persistent identifier <faq-persistent-identifier-DR>` that was assigned will become active. The persistent identifier can be used for future references.
 
 A few details of a DSC can still be changed - using the "edit metadata" button - after it has been published, e.g., linking publications to it, and changing its collection users.
 
@@ -64,26 +64,12 @@ In case you discover mistakes in your collection content, it is possible to re-o
 
 .. note::
 
-    As indicated when clicking the "switch to editable" button, you must contact datasupport@donders.ru.nl to ask the system administrator to reopen the collection.
+    As indicated when clicking the "switch to editable" button, you must contact `datasupport@donders.ru.nl <datasupport@donders.ru.nl>`_ to reopen the collection.
 
-After the collection has been reopend by the system administrator, an "editable" *draft version* is created. You can edit the collection content in the same way as before publishing it. You can still view the details of "Version 1", but these are no longer editable and you cannot edit its content.
+After the collection has been reopened, an "editable" *draft version* is created. You can edit the collection content in the same way as before publishing it. You can still view the details of "Version 1", but these are no longer editable and you cannot edit its content.
 
 .. figure:: images/reopend_dsc_draft.jpg
 
 Once you have updated the *draft* version of your collection, you should follow the same procedure for publishing the collection again, as described before on this page.
 
 After publishing this collection, a new version number (2) is assigned.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
