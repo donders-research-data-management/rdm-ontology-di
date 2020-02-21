@@ -17,15 +17,16 @@ node {
         }
 
         stage('Deploy') {
+            def ccDir = "/data/content/rdr-configurable-content-donders"
             if (env.BRANCH_NAME == 'release') {
                 echo "Deploying new configurable content to production"
                 sshagent (credentials: ['rdr-jenkins-ssh-credentials']) {
-                    sh 'ssh "rdr-donders-prd" "rdm-configurable-content-donders/build/docker/start-update.sh release"'
+                    sh "ssh dr-prod-portal $ccDir/build/docker/start-update.sh release"
                 }
-            } else if (env.BRANCH_NAME == 'jenkins') {
+            } else if (env.BRANCH_NAME == 'release-acc') {
                 echo "Deploying new configurable content to acceptance"
                 sshagent (credentials: ['rdr-jenkins-ssh-credentials']) {
-                    sh 'ssh "rdr-donders-acc" "rdm-configurable-content-donders/build/docker/start-update.sh latest"'
+                    sh "ssh dr-acc-portal $ccDir/build/docker/start-update.sh latest"
                 }
             } else {
                 echo "Not deploying non release tags"
