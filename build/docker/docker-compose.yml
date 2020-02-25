@@ -1,12 +1,12 @@
 version: '3'
 
 services:
-  rdm-configurable-content:
+  rdr-configurable-content:
+    container_name: rdr-configurable-content
     build:
       context: ../../
       dockerfile: build/docker/Dockerfile
     image: "docker.isc.ru.nl/rdr/web/rdr-configurable-content-donders:${TAG}"
-    container_name: rdm-configurable-content
     ports:
       - 8082:80
     logging:
@@ -15,7 +15,7 @@ services:
        max-file: "2"
     restart: unless-stopped
     networks:
-      - rdm-network
+      - rdr-network
 networks:
-  rdm-network:
+  rdr-network:
     external: true

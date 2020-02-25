@@ -36,3 +36,9 @@ Edit collection metadata
 5.  **What are MeSH keywords?**
 
     MeSH are the Medical Subject Headings, i.e. the system of keywords that is being used by the U.S. National Library of Medicine and by PubMed (https://www.ncbi.nlm.nih.gov/pubmed/). MeSH is a comprehensive controlled vocabulary for the purpose of indexing journal articles and books in the life sciences; it serves as a thesaurus that facilitates searching. Using MeSH keywords to describe the content of your collection allows it to be better indexed and found. The whole structure of MeSH can be browsed here (https://www.nlm.nih.gov/mesh/MBrowser.html).
+
+.. _faq-keyword-associated:
+
+6.  **How should I use the fields associated publications, -data, -analysis tools, -preregistrations?**
+    
+    The fields associated publications, associated data, associated analysis tools and associated pre-registrations allow you to link these associated materials to your collection. E.g. with associated data you can for instance link several data collections that are related. In the field "Identifier scheme" you select the applicable predefined identifier schemes. When you do not find the scheme you have been using you can chose the option "other". In the field "Identifier" the identification number of the associated materials must be filled out. 
