@@ -39,8 +39,6 @@ The configurations are saved to the bookmark automatically. Just close the confi
 
 Double-click on the saved bookmark to make connection.
 
-.. figure:: images/cd5.png
-
 You will be asked to provide the username and password of your :ref:`data access account <data-access-account>` to login window of Cyberduck. In that window, make sure you tick the option Save password (MacOSX: "Add to Keychain").
 
 .. figure:: images/cd6.png
