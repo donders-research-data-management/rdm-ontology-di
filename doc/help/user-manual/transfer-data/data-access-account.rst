@@ -3,7 +3,9 @@
 Data access account
 ===================
 
-In order to upload, download or view the content of files, you need a one-time data access password.
+In order to upload, download or view the content of files, you generally need a one-time data access password as described below. 
+
+Only for downloading data from datasets published under agreements that do not impose restrictions on access and redistribution, access is possible without authentication (see :ref:`this FAQ<faq-create-account-download-data>`).
 
 .. note::
 
