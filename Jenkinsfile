@@ -1,5 +1,11 @@
 node {
 
+    properties([
+        parameters([
+            string(name: 'tag', defaultValue: 'docker.isc.ru.nl/rdr/web/rdr-configurable-content-donders', description: 'Docker tag to create')
+        ])
+    ])
+
     try {
         stage('Checkout') {
             checkout scm
@@ -8,12 +14,10 @@ node {
         stage('Build') {
             sh 'echo "Git hash: `git rev-parse --verify HEAD` , Build on `date`" > build/build.txt'
             def branch = env.BRANCH_NAME
-            env.TAG = branch.equals('release') ? 'release' : 'latest'
-            echo "Building branch ${branch} and pushing as ${env.TAG}"
-            dir("build/docker") {
-               sh "docker-compose build --no-cache"
-               sh "docker-compose push"
-           }
+            def version = branch.equals('release') ? 'release' : 'latest'
+            echo "Building branch ${branch} and pushing as ${params.tag}:${version}"
+            sh "docker build -f build/docker/Dockerfile -t ${params.tag}:${version} --no-cache --pull=true ."
+            sh "docker push ${params.tag}:${version}"
         }
 
         stage('Deploy') {
