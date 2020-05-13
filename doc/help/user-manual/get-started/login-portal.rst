@@ -3,7 +3,7 @@
 Login in Portal
 ===============
 
-If you want to see the details of a collection, or make changes to open collections, click the *LOG IN* button on `the Data Repository homepage <https://data.donders.ru.nl>`_. Without logging in you will only be able to see limited information of published data sharing collections.
+If you want to see the details of a collection, or make changes to open collections, click the *LOG IN* button on `the Data Repository homepage <https://data-acc.ru.nl>`_. Without logging in you will only be able to see limited information of published data sharing collections.
 
 .. figure:: images/webportal_login.jpg
 
@@ -31,7 +31,7 @@ Choose the social account that you would like to use. Then you can use the usern
 
 .. figure:: images/select-social_60.png
 
-Alternatively, (create and) use ORCID-iD to login to the Donders Repository. This is recommended when sharing data with researchers who do not have an institutional account supported by SURFconext but do require authorization to add/modify/delete data. To allow logging into the repository with your ORCID-iD, you must allow at least 'trusted parties' to be able to see your e-mail address (see email settings on the webpage https://orcid.org/).
+Alternatively, (create and) use ORCID-iD to login to the Radboud Data Repository. This is recommended when sharing data with researchers who do not have an institutional account supported by SURFconext but do require authorization to add/modify/delete data. To allow logging into the repository with your ORCID-iD, you must allow at least 'trusted parties' to be able to see your e-mail address (see email settings on the webpage https://orcid.org/).
 
 Common questions
 ----------------

@@ -99,7 +99,7 @@ Organize data collections
     .. _faq-preferred-formats:
 
 6.  **Which data formats should I use to ensure that my data remains usable in the future?**
-    Using general and common file formats is important to ensure research data will remain usable in the future. For research data collected or processed within the Donders Institute and archived or published using the Donders Repository, it is encouraged to use the following standard, open or exchangeable file formats:
+    Using general and common file formats is important to ensure research data will remain usable in the future. For research data collected or processed within the Radboud University and archived or published using the Radboud Data Repository, it is encouraged to use the following standard, open or exchangeable file formats:
 
     ============================  ===================================================
     Type                          Preferred format

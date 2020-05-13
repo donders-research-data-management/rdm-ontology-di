@@ -19,7 +19,7 @@ Open the Linux terminal and type the following command.
 
 .. code-block:: bash
 
-    $ cadaver https://webdav.data.donders.ru.nl
+    $ cadaver https://webdav.data-acc.ru.nl
 
 You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of your :ref:`data access account <data-access-account>`.
 
@@ -28,7 +28,7 @@ You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of 
 Navigating local and remote directories
 ---------------------------------------
 
-Once you login to the WebDAV service, you are in the root directory. It allows you to navigate to the different Donders Institute organizational units. Type the following command to list the content of the current collection.
+Once you login to the WebDAV service, you are in the root directory. It allows you to navigate to the different Radboud University organizational units. Type the following command to list the content of the current collection.
 
 .. code-block:: bash
 
@@ -117,7 +117,7 @@ Command list
 +===========================================+==========================================================+
 | help [*command*]                          | Display help message of a cadaver *command*.             |
 +-------------------------------------------+----------------------------------------------------------+
-| cadaver https://webdav.data.donders.ru.nl | Log into the WebDAV server.                              |
+| cadaver https://webdav.data-acc.ru.nl | Log into the WebDAV server.                              |
 +-------------------------------------------+----------------------------------------------------------+
 | cd [*path*]                               | Change working collection referred by *path*             |
 +-------------------------------------------+----------------------------------------------------------+

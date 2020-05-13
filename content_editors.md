@@ -1,6 +1,6 @@
-# Editing the configurable content of the Donders Repository portal
+# Editing the configurable content of the Radboud Data Repository portal
 
-This page explains how to update the configurable contents which is displayed on the Donders Repository portal.
+This page explains how to update the configurable contents which is displayed on the Radboud Data Repository portal.
 
 This repository has two branches, the _master_ and the _release_.  They serve different purposes in the following workflow from editing the contents to managing how these changes appear online.
 
@@ -9,7 +9,7 @@ This repository has two branches, the _master_ and the _release_.  They serve di
 Two roles are involved in the workflow: the _content editor_ which is responsible for updating the contents; and the _content manager_ which brings the update online.  Hereafter is the workflow:
 
 1. The _content editor_ modifies contents on the _master_ branch.
-1. The _content editor_ informs the _content manager_ to apply changes to the Donders Repository portal.
+1. The _content editor_ informs the _content manager_ to apply changes to the Radboud Data Repository portal.
 1. The _content manager_ merges changes in the _master_ branch into the _release_ branch.  Whenever changes are made in the _release_ branch, an automatic process will pick them up and apply them on the portal.
 1. The _content manager_ receives a notification from the automatic process about the result of the process.
 
@@ -70,7 +70,7 @@ A list of indices are given blow:
 
 * [doc/publication/publication_systems.json](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/publication/publication_systems.json) provids a list of supported resource identifier systems that are used by the portal to generate the Publication System options on the collection editing form of the Data-Sharing Collections.  Each item on the list shoudl consists of the full name (`system`), the short name (`pidType`), and the URL prefix (`urlPrefix`).
 
-* [doc/keyword/MeSH2015.csv](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/keyword/MeSH2015.csv) and [doc/keyword/SFN2013.csv](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/keyword/SFN2013.csv) are two controlled vocabularies currently supported by the Donders Repository for collection keywords.  They are provided in the CSV format, and will be converted to a JSON format during the deployment.  __For the moment, adding a new keyword set requires development works in the Donders Repository.__
+* [doc/keyword/MeSH2015.csv](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/keyword/MeSH2015.csv) and [doc/keyword/SFN2013.csv](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/keyword/SFN2013.csv) are two controlled vocabularies currently supported by the Radboud Data Repository for collection keywords.  They are provided in the CSV format, and will be converted to a JSON format during the deployment.  __For the moment, adding a new keyword set requires development works in the Radboud Data Repository.__
 
 As the JSON documents are imported by the portal code, invalid JSON document can cause errors.  Therefore, all the JSON indices come with a schema file for validating the JSON document during the build process. This process prevents broken JSON indices being deployed to the production system. __One should make sure the schema matches the modified JSON file so that the build process will not fail.__  
 
@@ -90,7 +90,7 @@ Supported snippets are listed below:
 
 * [doc/footer.html](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/footer.html) contains text to be shown on the footer of every portal page.
 
-* [doc/privacy_policy.html](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/privacy_policy.html) contains the privacy policy of the Donders Repository.
+* [doc/privacy_policy.html](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/privacy_policy.html) contains the privacy policy of the Radboud Data Repository.
 
 * [doc/requestaccess.html](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/requestaccess.html) contains text guiding user to request data access to a published collection.  The text is used, e.g., in the "Content" tab of the collection detail page.
 
@@ -106,7 +106,7 @@ Supported snippets are listed below:
 
 * [doc/collection/publish/readme.txt](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/collection/publish/readme.txt) contains the readme file to be added to a collection when published.
 
-* [doc/dua/\*.html](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/dua/RU-DI-HD-1.0.html) provides contents of a specific data use agreement.
+* [doc/dua/\*.html](https://github.com/donders-research-data-management/rdm-configurable-content-donders/blob/master/doc/dua/RU-HD-1.0.html) provides contents of a specific data use agreement.
 
 ### styles
 
