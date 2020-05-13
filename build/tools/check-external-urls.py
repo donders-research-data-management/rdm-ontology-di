@@ -46,7 +46,7 @@ if __name__ == "__main__":
     parg.add_argument('-p', '--prefix',
                       action='store',
                       dest='url_prefix',
-                      default='http://data.donders.ru.nl/doc',
+                      default='http://data-acc.ru.nl/doc',
                       help='set the prefix of the external URLs of which the contents are provided by the release zipfile. The URLs matching this prefix will be checked whether the corresponding files are presented in the zipfile; otherwise, actual HTTP requests will be made to check their availability.')
 
     parg.add_argument('-i', '--index',

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Donders Repository Online Help documentation build configuration file, created by
+# Radboud Data Repository Online Help documentation build configuration file, created by
 # sphinx-quickstart on Tue Nov 13 12:10:07 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -32,7 +32,7 @@ sys.path.insert(0, os.path.abspath('./extensions'))
 # ones.
 #extensions = []
 extensions = ['sphinx.ext.extlinks','dr.note']
-extlinks = {'dua': ('https://data.donders.ru.nl/doc/dua/%s.html', '')}
+extlinks = {'dua': ('https://data-acc.ru.nl/doc/dua/%s.html', '')}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -47,9 +47,9 @@ source_suffix = '.rst'
 master_doc = 'toc'
 
 # General information about the project.
-project = u'Donders Repository Online Help'
-copyright = u'2018, Donders Institute'
-author = u'Donders Institute'
+project = u'Radboud Data Repository Online Help'
+copyright = u'2018, Radboud University'
+author = u'Radboud University'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -176,8 +176,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'DondersRepositoryOnlineHelp.tex', u'Donders Repository Online Help Documentation',
-     u'Donders Institute', 'manual'),
+    (master_doc, 'DondersRepositoryOnlineHelp.tex', u'Radboud Data Repository Online Help Documentation',
+     u'Radboud University', 'manual'),
 ]
 
 
@@ -186,7 +186,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'dondersrepositoryonlinehelp', u'Donders Repository Online Help Documentation',
+    (master_doc, 'dondersrepositoryonlinehelp', u'Radboud Data Repository Online Help Documentation',
      [author], 1)
 ]
 
@@ -197,7 +197,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'DondersRepositoryOnlineHelp', u'Donders Repository Online Help Documentation',
+    (master_doc, 'DondersRepositoryOnlineHelp', u'Radboud Data Repository Online Help Documentation',
      author, 'DondersRepositoryOnlineHelp', 'One line description of project.',
      'Miscellaneous'),
 ]

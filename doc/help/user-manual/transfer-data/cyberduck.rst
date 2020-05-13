@@ -29,7 +29,7 @@ A new pop-up window will appear. In this window you must configure the bookmark 
 
 - **WebDAV (HTTP/SSL)**
 - **Nickname: add a freely chosen nickname to the new connection**
-- Server: **webdav.data.donders.ru.nl**
+- Server: **webdav.data-acc.ru.nl**
 - Port: **443**
 - Username: the *username* (CASE SENSITIVE!) of the :ref:`data access account <data-access-account>`
 
@@ -46,7 +46,7 @@ You will be asked to provide the username and password of your :ref:`data access
 Transferring Data
 -----------------
 
-After your login, you will see four directories: one for each organizational unit of the Donders Institute.
+After your login, you will see four directories: one for each organizational unit of the Radboud University.
 
 .. figure:: images/cd7.png
 

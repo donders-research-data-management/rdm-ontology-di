@@ -1,16 +1,16 @@
 [
    {
-     "id":"RU-DI-HD-1.0",
-     "name":"Radboud University - Donders Institute - Human Data 1.0",
-     "pathHtml":"/doc/dua/RU-DI-HD-1.0.html",
-     "pathPlainText":"/doc/dua/RU-DI-HD-1.0.txt",
+     "id":"RU-HD-1.0",
+     "name":"Radboud University - Human Data 1.0",
+     "pathHtml":"/doc/dua/RU-HD-1.0.html",
+     "pathPlainText":"/doc/dua/RU-HD-1.0.txt",
      "filesAnonymousAccess":false
    },
    {
-     "id":"RU-DI-NH-1.0",
-     "name":"Radboud University - Donders Institute - Non-Human Data 1.0",
-     "pathHtml":"/doc/dua/RU-DI-NH-1.0.html",
-     "pathPlainText":"/doc/dua/RU-DI-NH-1.0.txt",
+     "id":"RU-NH-1.0",
+     "name":"Radboud University - Non-Human Data 1.0",
+     "pathHtml":"/doc/dua/RU-NH-1.0.html",
+     "pathPlainText":"/doc/dua/RU-NH-1.0.txt",
      "filesAnonymousAccess":false
    },
    {

@@ -1,14 +1,14 @@
-.. Donders Repository Online Help documentation master file, created by
+.. Radboud Data Repository Online Help documentation master file, created by
    sphinx-quickstart on Tue Nov 13 12:10:07 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 .. _index:
 
-Donders Repository
+Radboud Data Repository
 ==================
 
-At the Donders Institute we have an easy-to-use `Donders Repository <http://data.donders.ru.nl>`_ for managing, archiving and sharing our research data.
+At the Radboud University we have an easy-to-use `Radboud Data Repository <http://data-acc.ru.nl>`_ for managing, archiving and sharing our research data.
 
 **SAFE Storage**
 
@@ -24,7 +24,7 @@ You can easily share your research data with collaborators around the world with
 
 **Get started!**
 
-* :ref:`The Donders Repository in a nutshell <rdm-nutshell>`
+* :ref:`The Radboud Data Repository in a nutshell <rdm-nutshell>`
 
 * :ref:`User Manual <user-manual>`
 

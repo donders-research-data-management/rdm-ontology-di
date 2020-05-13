@@ -19,7 +19,7 @@ Get started: deposit data
 
 2.  **How should I request a Data Acquisition Collection/Research Documentation Collection/ Data Sharing Collection (DAC/RDC/DSC)?**
 
-    New collections can only be requested by researchers working at or affiliated with the Donders Institute for Brain, Cognition and Behavior. The Donders Insitute has 4 organizational units, which all have their own management and implementation of RDM procedures: DCCN, DCC, DCN and DCMN. The way to request a collection differs per organizational unit. For details please check the Intranet of Donders Institute: https://intranet.donders.ru.nl/
+    New collections can only be requested by researchers working at or affiliated with the Radboud University. The Radboud University has multiple organizational units, which all have their own management and implementation of RDM procedures. The way to request a collection differs per organizational unit. For details please check the intranet of the Radboud University: https://www.radboudnet.nl/
 
 3.  **What are research data?**
 
@@ -29,4 +29,4 @@ Get started: deposit data
 
     This definition of research data does not only include empirical data, but also simulated data, computer scripts for analysis and simulations, stimuli presented in experiments and the computer scripts for presenting them, etc. A good way to determine what is the research data on which a study is based, is asking oneself what information has contributed to the results on which you report in your publication. And a good way to delineate the empirical from the other research data, is by asking oneself whether one has used some device for obtaining these data: empirical data are always collected using a device (a button box, a keyboard, an MRI scanner, an EEG or MEG system, a video camera, a touch screen, a microscope, ...).
 
-    Not all studies and publications depend on research data, as defined above. This holds for theoretical, perspective and opinion papers, as well as for reviews. The Donders Repository is only relevant for those studies and publications that do depend on research data.
+    Not all studies and publications depend on research data, as defined above. This holds for theoretical, perspective and opinion papers, as well as for reviews. The Radboud Data Repository is only relevant for those studies and publications that do depend on research data.

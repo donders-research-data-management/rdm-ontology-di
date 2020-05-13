@@ -25,7 +25,7 @@ Alternatively, you could also open the Thunar file manager with the command in a
 
 .. figure:: images/shell-thunar.png
 
-A file manager window will appear. In the browser bar at the top, type the following address: `davs://WebDAV.data.donders.ru.nl`.
+A file manager window will appear. In the browser bar at the top, type the following address: `davs://WebDAV.data-acc.ru.nl`.
 
 .. figure:: images/thunar-webdav-address.png
 
@@ -36,7 +36,7 @@ You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of 
 Transfer data
 -------------
 
-After you logged in, you will see four directories: one for each Donders Institute organizational unit. On the left side you see that a new network connection has been made. You can use this to navigate to the repository.
+After you logged in, you will see four directories: one for each Radboud University organizational unit. On the left side you see that a new network connection has been made. You can use this to navigate to the repository.
 
 .. figure:: images/thunar-navigate.png
 

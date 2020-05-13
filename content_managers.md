@@ -1,6 +1,6 @@
-# Managing and deploying the configurable content of the Donders Repository portal
+# Managing and deploying the configurable content of the Radboud Data Repository portal
 
-This page explains how to update the configurable contents which is displayed on the Donders Repository portal.
+This page explains how to update the configurable contents which is displayed on the Radboud Data Repository portal.
 
 This repository has two branches, the _master_ and the _release_.  They serve different purposes in the following workflow from editing the contents to managing how these changes appear online.
 
@@ -9,7 +9,7 @@ This repository has two branches, the _master_ and the _release_.  They serve di
 Two roles are involved in the workflow: the _content editor_ which is responsible for updating the contents; and the _content manager_ which brings the update online.  Hereafter is the workflow:
 
 1. The _content editor_ modifies contents on the _master_ branch.
-1. The _content editor_ informs the _content manager_ to apply changes to the Donders Repository portal.
+1. The _content editor_ informs the _content manager_ to apply changes to the Radboud Data Repository portal.
 1. The _content manager_ merges changes in the _master_ branch into the _release_ branch.  Whenever changes are made in the _release_ branch, an automatic process will pick them up and apply them on the portal.
 1. The _content manager_ receives a notification from the automatic process about the result of the process.
 

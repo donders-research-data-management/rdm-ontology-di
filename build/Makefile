@@ -69,7 +69,7 @@ $(CMS_SNIPPETS_MD):
 
 $(CMS_EXT_RSRC_IDX):
 	@echo "--> build index file: $@"
-	sed "s|http://data.donders.ru.nl|$(BASEURL)|g" ../$(CMS_EXT_RSRC_IDX) > $(CMS_EXT_RSRC_IDX).tmp
+	sed "s|http://data-acc.ru.nl|$(BASEURL)|g" ../$(CMS_EXT_RSRC_IDX) > $(CMS_EXT_RSRC_IDX).tmp
 
 $(DIR_HELPDOC_HTML):
 	@echo "--> build helpdoc files in $(DIR_HELPDOC)"

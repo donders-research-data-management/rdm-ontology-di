@@ -7,7 +7,7 @@ Login and collection roles
 
     SURFconext allows all academic institutes and schools in The Netherlands to use a single login. SURFconext allows you to access online services with the username and password issued by your own institution.
 
-    In SURFconext your personal details are only provided to a service provider (such as the Donders Repository) if these details are needed to use the service.
+    In SURFconext your personal details are only provided to a service provider (such as the Radboud Data Repository) if these details are needed to use the service.
  
 2.  **In my browser I cannot select any institution. What should I do?**
 
@@ -17,13 +17,13 @@ Login and collection roles
 
 3.  **What if my institute is not listed in the login window?**
 
-    If your institute is not listed when you try to log in, you should contact the person who is responsible for SURFconext at your institution and ask for your institute to be allowed to access the Donders Repository. You can contact SURFconext (support@surfconext.nl) to find out who is responsible at your institution. When contacting SURFconext, you can use this template email:
+    If your institute is not listed when you try to log in, you should contact the person who is responsible for SURFconext at your institution and ask for your institute to be allowed to access the Radboud Data Repository. You can contact SURFconext (support@surfconext.nl) to find out who is responsible at your institution. When contacting SURFconext, you can use this template email:
 
     ::
 
         Dear SURFconext support team,
        
-        I am employed by [the name of your university/institute] and would like to get access to the Donders Repository, a service to which I can get access via SURFconext. Could you give me the contact details of the SURFconext person of my organization?
+        I am employed by [the name of your university/institute] and would like to get access to the Radboud Data Repository, a service to which I can get access via SURFconext. Could you give me the contact details of the SURFconext person of my organization?
         
         In case your institute does not use SURFconext, you can use any of your social accounts (Google, LinkedIn, Facebook, Twitter, MicroSoft) via the Onegini option to log in. With a social account the access to data is limited to published Data Sharing Collections. You cannot be added to Data Acquisition Collections or Research Documentation Collections with a social account.
        
@@ -33,19 +33,19 @@ Login and collection roles
 
 4.  **What is an ORCID-iD?**
 
-    ORCID provides you with a unique individual and persistent digital identifier that enables you to connect research contributions and to share information on large scale with other researchers. You can login to the Donders Repository using your ORCID-iD. Read how to create and ORCID-iD on the webpage (https://orcid.org/). Note that you must set your ORCID account **e-mail settings** such that your e-mail address is shared with at least trusted parties (such as the Donders Repository). This is required to verify your identity on the background. See also :ref:`this FAQ <faq-orcid-permissions>`.
+    ORCID provides you with a unique individual and persistent digital identifier that enables you to connect research contributions and to share information on large scale with other researchers. You can login to the Radboud Data Repository using your ORCID-iD. Read how to create and ORCID-iD on the webpage (https://orcid.org/). Note that you must set your ORCID account **e-mail settings** such that your e-mail address is shared with at least trusted parties (such as the Radboud Data Repository). This is required to verify your identity on the background. See also :ref:`this FAQ <faq-orcid-permissions>`.
 
 .. _faq-onegini:
 
 5.  **What is an Onegini account?**
    
-    Onegini allows you to create a digital identity that can be used to access repository. You can use Google+, LinkedIn, Facebook, Twitter or Microsoft account to login to the Donders Repository via Onegini. Read how to create an Onegini account on the Onegini webpage (https://www.onegini.com/).
+    Onegini allows you to create a digital identity that can be used to access repository. You can use Google+, LinkedIn, Facebook, Twitter or Microsoft account to login to the Radboud Data Repository via Onegini. Read how to create an Onegini account on the Onegini webpage (https://www.onegini.com/).
 
 .. _faq-multiple-user-profiles:
 
 6.  **Can I have multiple user profiles in the repository?**
 
-    One person can have multiple user profiles in the repository, e.g. if that person has an account at multiple universities, or if that person uses both his academic account and his social account. If you log in to the Donders Repository with different accounts, your profiles are likely to have access to different collections in different roles. Different accounts from the same user cannot be linked.
+    One person can have multiple user profiles in the repository, e.g. if that person has an account at multiple universities, or if that person uses both his academic account and his social account. If you log in to the Radboud Data Repository with different accounts, your profiles are likely to have access to different collections in different roles. Different accounts from the same user cannot be linked.
 
 .. _faq-differences-between-roles:
 

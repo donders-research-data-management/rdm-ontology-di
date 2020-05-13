@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="100">
-    <title>Donders Repository</title>
+    <title>Radboud Data Repository</title>
     <svg id="r3dlogo">
     <defs xmlns="http://www.w3.org/2000/svg" id="defs4">
         <clipPath id="clipPath3371">
@@ -141,10 +141,10 @@
         <switch>
             <foreignObject width="285" height="15" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">                
                 <div style="color: #000000; font-weight: bold; line-height: 1.25; font-size: 12px; font-family: sans-serif; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" xmlns="http://www.w3.org/1999/xhtml">
-                    Donders Repository
+                    Radboud Data Repository
                 </div>                                    
             </foreignObject>            
-            <text y="10" fill="#000000" font-family="Helvetica" font-size="12px" font-weight="bold">Donders Repository</text>      
+            <text y="10" fill="#000000" font-family="Helvetica" font-size="12px" font-weight="bold">Radboud Data Repository</text>      
         </switch>
     </svg>
 
