@@ -8,7 +8,7 @@ Login and collection roles
     SURFconext allows all academic institutes and schools in The Netherlands to use a single login. SURFconext allows you to access online services with the username and password issued by your own institution.
 
     In SURFconext your personal details are only provided to a service provider (such as the Radboud Data Repository) if these details are needed to use the service.
- 
+
 2.  **In my browser I cannot select any institution. What should I do?**
 
     The dialog box to select your institution can be used in most popular browsers, including Internet Explorer, Firefox, Chrome, and Safari. Other browsers may not be supported. Your browser must support the use of cookies and JavaScript.
@@ -22,11 +22,11 @@ Login and collection roles
     ::
 
         Dear SURFconext support team,
-       
+
         I am employed by [the name of your university/institute] and would like to get access to the Radboud Data Repository, a service to which I can get access via SURFconext. Could you give me the contact details of the SURFconext person of my organization?
-        
+
         In case your institute does not use SURFconext, you can use any of your social accounts (Google, LinkedIn, Facebook, Twitter, MicroSoft) via the Onegini option to log in. With a social account the access to data is limited to published Data Sharing Collections. You cannot be added to Data Acquisition Collections or Research Documentation Collections with a social account.
-       
+
         For further questions on authenticating yourself, contact datasupport@donders.ru.nl.
 
 .. _faq-orcid:
@@ -38,7 +38,7 @@ Login and collection roles
 .. _faq-onegini:
 
 5.  **What is an Onegini account?**
-   
+
     Onegini allows you to create a digital identity that can be used to access repository. You can use Google+, LinkedIn, Facebook, Twitter or Microsoft account to login to the Radboud Data Repository via Onegini. Read how to create an Onegini account on the Onegini webpage (https://www.onegini.com/).
 
 .. _faq-multiple-user-profiles:
@@ -63,6 +63,6 @@ Login and collection roles
 
     To be assigned for all roles the user must have an authenticated account (e.g. `SURFconext <https://www.surf.nl/en/services-and-products/surfconext/index.html>`_). Users with an ORCID-iD cannot be assigned as manager. Users with a social account cannot be assigned as a manager or a contributor.
 
-    To be assigned as a manager the user has to be added to one of the participating organizational units (DCC, DCCN, DCMN, DCN) by that unit's research administrator. In this way, it is ensured that only the members of an organizational unit can be assigned the responsibility that comes with the manager role.
+    To be assigned as a manager the user has to be added to one of the participating organizational units by that unit's research administrator. In this way, it is ensured that only the members of an organizational unit can be assigned the responsibility that comes with the manager role.
 
 .. _faq-get-started:
