@@ -3,7 +3,7 @@
 Login in Portal
 ===============
 
-If you want to see the details of a collection, or make changes to open collections, click the *LOG IN* button on `the Data Repository homepage <https://data-acc.ru.nl>`_. Without logging in you will only be able to see limited information of published data sharing collections.
+If you want to see the details of a collection, or make changes to open collections, click the *LOG IN* button on `the data repository homepage <https://data-acc.ru.nl>`_. Without logging in you will only be able to see limited information of published data sharing collections.
 
 .. figure:: images/webportal_login.jpg
 
