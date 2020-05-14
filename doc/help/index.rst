@@ -16,7 +16,7 @@ All your research data is securely stored in one location.
 
 **RESEARCH DOCUMENTATION**
 
-Every step in the research workflow can be easily documented.
+You can store the documentation of your research along with your data.
 
 **CONTROLLED SHARING**
 
