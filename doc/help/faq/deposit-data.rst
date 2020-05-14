@@ -19,7 +19,7 @@ Get started: deposit data
 
 2.  **How should I request a Data Acquisition Collection/Research Documentation Collection/ Data Sharing Collection (DAC/RDC/DSC)?**
 
-    New collections can only be requested by researchers working at or affiliated with the Radboud University. The Radboud University has multiple organizational units, which all have their own management and implementation of RDM procedures. The way to request a collection differs per organizational unit. For details please check the intranet of the Radboud University: https://www.radboudnet.nl/
+    New collections can only be requested by researchers working at or affiliated with the Radboud University. The Radboud University has multiple organisational units, which all have their own management and implementation of RDM procedures. The way to request a collection differs per organisational unit. For details please check the intranet of the Radboud University: https://www.radboudnet.nl/
 
 3.  **What are research data?**
 

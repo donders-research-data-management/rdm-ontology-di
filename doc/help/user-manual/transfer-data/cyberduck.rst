@@ -46,11 +46,11 @@ You will be asked to provide the username and password of your :ref:`data access
 Transferring Data
 -----------------
 
-After your login, you will see four directories: one for each organizational unit of the Radboud University.
+After your login, you will see four directories: one for each organisational unit of the Radboud University.
 
 .. figure:: images/cd7.png
 
-In the subtree of a particular organizational unit, you will see directories of collections in which you are authorized for data access (i.e., you are a viewer, contributor or manager of the corresponding collection). As a viewer of a collection, you are only allowed to download data from that collection. As a contributor or manager, you are also allowed to upload and modify data.
+In the subtree of a particular organisational unit, you will see directories of collections in which you are authorized for data access (i.e., you are a viewer, contributor or manager of the corresponding collection). As a viewer of a collection, you are only allowed to download data from that collection. As a contributor or manager, you are also allowed to upload and modify data.
 
 After entering a collection's directory you can download data by selecting files/directories followed by clicking the "Action" button on the menu bar. In the drop-down menu, choose one of the download options and follow the dialog to save them locally.
 

@@ -63,6 +63,6 @@ Login and collection roles
 
     To be assigned for all roles the user must have an authenticated account (e.g. `SURFconext <https://www.surf.nl/en/services-and-products/surfconext/index.html>`_). Users with an ORCID-iD cannot be assigned as manager. Users with a social account cannot be assigned as a manager or a contributor.
 
-    To be assigned as a manager the user has to be added to one of the participating organizational units by that unit's research administrator. In this way, it is ensured that only the members of an organizational unit can be assigned the responsibility that comes with the manager role.
+    To be assigned as a manager the user has to be added to one of the participating organisational units by that unit's research administrator. In this way, it is ensured that only the members of an organisational unit can be assigned the responsibility that comes with the manager role.
 
 .. _faq-get-started:

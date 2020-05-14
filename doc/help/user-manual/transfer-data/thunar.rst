@@ -36,11 +36,11 @@ You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of 
 Transfer data
 -------------
 
-After you logged in, you will see four directories: one for each Radboud University organizational unit. On the left side you see that a new network connection has been made. You can use this to navigate to the repository.
+After you logged in, you will see four directories: one for each Radboud University organisational unit. On the left side you see that a new network connection has been made. You can use this to navigate to the repository.
 
 .. figure:: images/thunar-navigate.png
 
-In the subtree of a particular organizational unit, you will see the directories of all its collections. You can only see these collections if you are authorized (i.e., if you are a viewer, contributor or manager of the corresponding collection). As a viewer of a collection, you are only allowed to download data from that collection. As a contributor or manager, you are also allowed to upload and modify data.
+In the subtree of a particular organisational unit, you will see the directories of all its collections. You can only see these collections if you are authorized (i.e., if you are a viewer, contributor or manager of the corresponding collection). As a viewer of a collection, you are only allowed to download data from that collection. As a contributor or manager, you are also allowed to upload and modify data.
 
 You can now copy/paste or drag and drop files from and to your preferred local directory.
 
