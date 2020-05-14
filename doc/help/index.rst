@@ -31,4 +31,4 @@ You can easily share your research data with collaborators around the world with
 * :ref:`Frequently asked questions <faq>`
 
 
-You can send questions and feedback regarding the Data Repository to `datasupport@donders.ru.nl <datasupport@donders.ru.nl>`_.
+You can send questions and feedback regarding the data repository to `datasupport@donders.ru.nl <datasupport@donders.ru.nl>`_.
