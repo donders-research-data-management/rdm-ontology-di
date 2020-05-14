@@ -10,15 +10,15 @@ Radboud Data Repository
 
 At the Radboud University we have an easy-to-use `Radboud Data Repository <http://data-acc.ru.nl>`_ for managing, archiving and sharing our research data.
 
-**SAFE Storage**
+**Safe Storage**
 
-All your research data is securely stored in one location.
+All your research data is securely archived in one location.
 
-**RESEARCH DOCUMENTATION**
+**Research Documentation**
 
 You can store the documentation of your research along with your data.
 
-**CONTROLLED SHARING**
+**Controlled Sharing**
 
 You can easily share your research data with collaborators around the world with predefined restrictions.
 
