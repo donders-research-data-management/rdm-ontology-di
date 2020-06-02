@@ -7,11 +7,11 @@ If you want to see the details of a collection, or make changes to open collecti
 
 .. figure:: images/webportal_login.jpg
 
-On the login page you can choose either your institutional account or ORCID-ID. How you login will determine to which role in a collection you can be authorized, see :ref:`this FAQ <faq-get-started>`.
+On the login page you can choose either your institutional account (via SURFconext) or ORCID-ID. How you login will determine to which role in a collection you can be authorized, see :ref:`this FAQ <faq-get-started>`.
 
 .. figure:: images/login_orcid.jpg
 
-Preferably use your home institution account to login. To do this, search for your institute in the list.
+Preferably use your home institution account to login. To do this, click "login with your SURFconext account" and search for your institute in the list.
 
 .. figure:: images/institute-list_60.png
 
@@ -23,13 +23,9 @@ Fill in your username and password of the user account from your home institute.
 
     If your institute is not listed, then it can be added by the :ref:`SURFconext <faq-surfconext>` contact person of your institute. See this :ref:`FAQ <faq-surfconext-add-institute>` for instructions.
 
-In case you do not have an institutional account, you can log in using the *Social ID | Onegini* option. This allows you to use your Google, LinkedIn, Facebook or Twitter account. Please keep in mind that with a Social ID you can only access published :ref:`Data Sharing Collection (DSC) <faq-dsc>`. Read more on the Onegini option in this :ref:`FAQ <faq-onegini>`.
+In case you do not have an institutional account, you can log in using the *eduID* option. This allows you to use your Google, LinkedIn, Facebook or Twitter account (note: eduID has replaced onegini accounts). Please keep in mind that with a Social ID you can only access published :ref:`Data Sharing Collection (DSC) <faq-dsc>`. Read more on the eduID option in this :ref:`FAQ <faq-eduID>`.
 
-.. figure:: images/find-social_60.png
-
-Choose the social account that you would like to use. Then you can use the username and the password of that social account to login.
-
-.. figure:: images/select-social_60.png
+.. figure:: images/eduID.png
 
 Alternatively, (create and) use ORCID-iD to login to the Radboud Data Repository. This is recommended when sharing data with researchers who do not have an institutional account supported by SURFconext but do require authorization to add/modify/delete data. To allow logging into the repository with your ORCID-iD, you must allow at least 'trusted parties' to be able to see your e-mail address (see email settings on the webpage https://orcid.org/).
 

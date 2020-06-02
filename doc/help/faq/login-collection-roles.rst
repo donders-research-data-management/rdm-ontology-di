@@ -35,11 +35,11 @@ Login and collection roles
 
     ORCID provides you with a unique individual and persistent digital identifier that enables you to connect research contributions and to share information on large scale with other researchers. You can login to the Radboud Data Repository using your ORCID-iD. Read how to create and ORCID-iD on the webpage (https://orcid.org/). Note that you must set your ORCID account **e-mail settings** such that your e-mail address is shared with at least trusted parties (such as the Radboud Data Repository). This is required to verify your identity on the background. See also :ref:`this FAQ <faq-orcid-permissions>`.
 
-.. _faq-onegini:
+.. _faq-eduID:
 
-5.  **What is an Onegini account?**
+5.  **What is an eduID account?**
 
-    Onegini allows you to create a digital identity that can be used to access repository. You can use Google+, LinkedIn, Facebook, Twitter or Microsoft account to login to the Radboud Data Repository via Onegini. Read how to create an Onegini account on the Onegini webpage (https://www.onegini.com/).
+    EduID allows you to create a digital identity that can be used to access the repository (and other services connected to SURFconext). You can use Google+, LinkedIn, Facebook, Twitter or Microsoft account to login to the Donders Repository via eduID. Read how to create an eduID account on the eduID webpage (https://eduid.nl/).
 
 .. _faq-multiple-user-profiles:
 
