@@ -19,7 +19,7 @@ To publish a DSC, you must initially follow the same internal review procedure a
 
 .. note::
 
-    Note that a (reserved) :ref:`persistent identifier <faq-persistent-identifier-DR>` is assigned to a DSC immediately after the colleciton is created. If required, you can already add this persistent identifier to your manuscript; however, only after *publishing* the collection, the persistent identifier becomes active and will point to the published DSC.
+    Note that a DOI :ref:`persistent identifier <faq-persistent-identifier-DR>` is assigned to a DSC immediately after the collection is created. If required, you can already add this persistent identifier to your manuscript; however, only after *publishing* the collection, the persistent identifier (DOI) becomes active and will point to the published DSC.
 
 If all collaborators agree on the content of the collection, you may want or be requested to allow external reviewers to access your DSC before publishing it.
 
@@ -52,7 +52,7 @@ When the manuscript is accepted for publication, the Data Sharing Collection sho
 
 .. figure:: images/collection_being_published.png
 
-After the collection is published a permanent read-only copy of the collection will be created and the :ref:`persistent identifier <faq-persistent-identifier-DR>` that was assigned will become active. The persistent identifier can be used for future references.
+After the collection is published a permanent read-only copy of the collection will be created and the :ref:`persistent identifier <faq-persistent-identifier-DR>` (DOI) that was assigned will become active. The persistent identifier can be used for future references.
 
 A few details of a DSC can still be changed - using the "edit metadata" button - after it has been published, e.g., linking publications to it, and changing its collection users.
 
