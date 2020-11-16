@@ -36,7 +36,7 @@ You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of 
 Transfer data
 -------------
 
-After you logged in, you will see four directories: one for each Radboud University organisational unit. On the left side you see that a new network connection has been made. You can use this to navigate to the repository.
+After you logged in, you will see a number of directories: one for each ${organizationDescription} organisational unit. On the left side you see that a new network connection has been made. You can use this to navigate to the repository.
 
 .. figure:: images/thunar-navigate.png
 

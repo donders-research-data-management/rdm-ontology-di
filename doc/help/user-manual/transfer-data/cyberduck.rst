@@ -46,7 +46,7 @@ You will be asked to provide the username and password of your :ref:`data access
 Transferring Data
 -----------------
 
-After your login, you will see four directories: one for each organisational unit of the Radboud University.
+After your login, you will see a number of directories: one for each organisational unit of the ${organizationDescription}.
 
 .. figure:: images/cd7.png
 

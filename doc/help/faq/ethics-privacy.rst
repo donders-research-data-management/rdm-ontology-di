@@ -5,7 +5,7 @@ Ethics & privacy
 
 1.  **Where should I apply for ethics approval for studies involving human participants?**
 
-    A lot of the research at the Radboud University is covered by existing ethical agreements. If you are not sure whether you need to apply, please ask your local ethics officer or your data steward.
+    A lot of the research at the ${organizationDescription} is covered by existing ethical agreements. If you are not sure whether you need to apply, please ask your local ethics officer or your data steward.
 
     There are 23 accredited METCs in the Netherlands that review medical/scientific research proposals that involve human subjects. The majority are linked to an institution such as an academic medical centre or a hospital. The Faculty of Social Sciences at the Radboud University has its own Ethics Committee that is referred to as `ECSS <https://www.ru.nl/socialsciences/research/ethics-committee-social-science-ecss/>`_. The Faculty of Arts at the Radboud University has its own Ethics Committee that is referred to as `EACH <https://www.ru.nl/eac-humanities/>`_. The Faculty of Science at the Radboud University has its own Ethics Committee that is referred to as `REC <https://www.ru.nl/science/research/about-our-research/ethics-committee/>`_. For the DCCN you can find more details `here <https://intranet.donders.ru.nl/index.php?id=cmo-ethics>`_.
 

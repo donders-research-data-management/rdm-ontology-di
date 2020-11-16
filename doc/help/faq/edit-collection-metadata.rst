@@ -5,7 +5,7 @@ Edit collection metadata
 
 1.  **What is an organisational unit?**
 
-    An organisational unit is a section of the institute that has its own management and its own implementation of the RDM procedures. Within the Radboud University there are multiple organisational units, which are organised according to faculties, to research institutes, or to centres. Each of these organisational units has its own project management and for each of these the implementation of the procedures can be slightly different.
+    An organisational unit is a section of the organization that has its own management and its own implementation of the RDM procedures. Within the ${organizationDescription} there are multiple organisational units, which are organised according to faculties, to research institutes, or to centres. Each of these organisational units has its own project management and for each of these the implementation of the procedures can be slightly different.
 
 .. _faq-abstract:
 
@@ -29,7 +29,7 @@ Edit collection metadata
 
 4.  **What are SfN keywords?**
 
-    The SfN keywords match the classification of presentations at the annual meeting of the Society for Neuroscience (https://www.sfn.org/).The specific list currently used in the Radboud Data Repository is that of the 2013 SfN meeting. Using SfN keywords to describe the content of your collection allows it to be better indexed and found.
+    The SfN keywords match the classification of presentations at the annual meeting of the Society for Neuroscience (https://www.sfn.org/). The specific list currently used in the ${repositoryDescription} is that of the 2013 SfN meeting. Using SfN keywords to describe the content of your collection allows it to be better indexed and found.
 
 .. _faq-keyword-MeSH:
 

@@ -3,7 +3,7 @@ Share data with external reviewers
 
 1.  **How do I share data with external reviewers?**
 
-    The Radboud Data Repository includes the possibility of sharing data from a Data Sharing Collection with external reviewers (i.e. before publication) in a way that protects the anonymity of the reviewers. For details :ref:`see here <publish-dsc-share-data>`.
+    The ${repositoryDescription} includes the possibility of sharing data from a Data Sharing Collection with external reviewers (i.e. before publication) in a way that protects the anonymity of the reviewers. For details :ref:`see here <publish-dsc-share-data>`.
 
 2.  **I received a "reviewer access URL". How should I use it?**
 

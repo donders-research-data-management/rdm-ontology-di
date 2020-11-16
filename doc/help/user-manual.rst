@@ -3,7 +3,7 @@
 User Manual
 ===========
 
-This user manual will help you get a jump start with the Radboud Data Repository.
+This user manual will help you get a jump start with the ${repositoryDescription}.
 
 .. toctree::
    :maxdepth: 2

@@ -3,7 +3,7 @@
 Request access
 ==============
 
-You can find and retrieve shared data in the Donders Research Data Repository through a persistent identifier :ref:`(see this FAQ) <faq-persistent-identifier>` that is specific to the data collection. You can obtain these persistent identifiers in two ways:
+You can find and retrieve shared data in the ${repositoryDescription} through a persistent identifier :ref:`(see this FAQ) <faq-persistent-identifier>` that is specific to the data collection. You can obtain these persistent identifiers in two ways:
 
 1) directly from the author(s) of the data;
 2) from a publication that is linked to the data.
@@ -14,7 +14,7 @@ For example, say you are interested in the data used in the paper by van der Mei
 
 .. figure:: images/s4_0.png
 
-In the Donders Research Data Repository, shared data can be found in a :ref:`Data Sharing Collection (DSC) <faq-collection-types>`. Click on the link, which will guide you to the DSC's page in the repository.
+In the ${repositoryDescription}, shared data can be found in a :ref:`Data Sharing Collection (DSC) <faq-collection-types>`. Click on the link, which will guide you to the DSC's page in the repository.
 
 Without logging in, you can only see limited information of the data collection. When you click the "Request access" button, you may first need to log in, depending on the :ref:`access level <faq-create-account-download-data>` specified by the collection manager.
 
@@ -34,5 +34,5 @@ Read it carefully and tick the box at the end of the page if you agree with the 
 
 If you follow these steps, you will be automatically added as a viewer of this collection. As a viewer, you can view all collection details and you can download the data from the collection :ref:`(see this FAQ: What are the differences between the roles in a collection? <faq-differences-between-roles>`
 
-Go to next section: 
+Go to next section:
 :ref:`Download shared data <download-shared-data>`

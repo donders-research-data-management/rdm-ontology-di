@@ -28,7 +28,7 @@ You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of 
 Navigating local and remote directories
 ---------------------------------------
 
-Once you login to the WebDAV service, you are in the root directory. It allows you to navigate to the different Radboud University organisational units. Type the following command to list the content of the current collection.
+Once you login to the WebDAV service, you are in the root directory. It allows you to navigate to the different ${organizationDescription} organisational units. Type the following command to list the content of the current collection.
 
 .. code-block:: bash
 

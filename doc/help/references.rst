@@ -3,7 +3,7 @@
 Reference documents
 ===================
 
-Read more about the privacy policy regarding the use of the Radboud Data Repository.
+Read more about the privacy policy regarding the use of the ${repositoryDescription}.
 
 This `privacy policy <https://data.donders.ru.nl/doc/privacy_policy.html>`_ describes how the repository processes and stores data about its users. 
 
