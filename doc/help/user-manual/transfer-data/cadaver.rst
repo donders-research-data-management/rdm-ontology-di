@@ -19,7 +19,7 @@ Open the Linux terminal and type the following command.
 
 .. code-block:: bash
 
-    $ cadaver https://webdav.data-acc.ru.nl
+    $ cadaver https://webdav.${repositoryUrl}
 
 You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of your :ref:`data access account <data-access-account>`.
 
@@ -117,7 +117,7 @@ Command list
 +===========================================+==========================================================+
 | help [*command*]                          | Display help message of a cadaver *command*.             |
 +-------------------------------------------+----------------------------------------------------------+
-| cadaver https://webdav.data-acc.ru.nl | Log into the WebDAV server.                              |
+| cadaver https://webdav.${repositoryUrl} | Log into the WebDAV server.                              |
 +-------------------------------------------+----------------------------------------------------------+
 | cd [*path*]                               | Change working collection referred by *path*             |
 +-------------------------------------------+----------------------------------------------------------+

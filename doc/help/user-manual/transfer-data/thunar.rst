@@ -25,7 +25,7 @@ Alternatively, you could also open the Thunar file manager with the command in a
 
 .. figure:: images/shell-thunar.png
 
-A file manager window will appear. In the browser bar at the top, type the following address: `davs://WebDAV.data-acc.ru.nl`.
+A file manager window will appear. In the browser bar at the top, type the following address: `davs://webdav.${repositoryUrl}`.
 
 .. figure:: images/thunar-webdav-address.png
 

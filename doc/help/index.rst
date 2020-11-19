@@ -8,7 +8,7 @@
 ${repositoryDescription}
 ==================
 
-At the ${organizationDescription} we have an easy-to-use `${repositoryDescription} <http://data-acc.ru.nl>`_ for managing, archiving and sharing our research data.
+At the ${organizationDescription} we have an easy-to-use `${repositoryDescription} <https://${repositoryUrl}>`_ for managing, archiving and sharing our research data.
 
 **Safe Storage**
 

@@ -35,7 +35,7 @@ When sharing the URL with the journal editor, make sure to include a small expla
 
 ::
 
-    The reviewable data for paper XXX-YYY can be found via the following URL: https://data-acc.ru.nl/login/reviewer-CollectionSpecificURL (replace CollectionSpecificURL by the string that you copy and paste when clicking the "get reviewer access" button). The URL provided should only be shared with reviewers. The data will only be publicly available after manuscript acceptance, in which case the persistent identifier that is currently reserved for this collection will become effective.
+    The reviewable data for paper XXX-YYY can be found via the following URL: https://${repositoryUrl}/login/reviewer-CollectionSpecificURL (replace CollectionSpecificURL by the string that you copy and paste when clicking the "get reviewer access" button). The URL provided should only be shared with reviewers. The data will only be publicly available after manuscript acceptance, in which case the persistent identifier that is currently reserved for this collection will become effective.
 
 By following the URL, reviewers can view the data sharing collection in their web-browser and can download the collection content according to the instructions found at :ref:`access shared data <access-shared-data>`.
 
