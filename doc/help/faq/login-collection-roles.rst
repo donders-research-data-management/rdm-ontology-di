@@ -27,7 +27,7 @@ Login and collection roles
 
         In case your institute does not use SURFconext, you can use any of your social accounts (Google, LinkedIn, Facebook, Twitter, MicroSoft) via the Onegini option to log in. With a social account the access to data is limited to published Data Sharing Collections. You cannot be added to Data Acquisition Collections or Research Documentation Collections with a social account.
 
-        For further questions on authenticating yourself, contact datasupport@donders.ru.nl.
+        For further questions on authenticating yourself, contact ${repositorySupportEmail}.
 
 .. _faq-orcid:
 

@@ -11,4 +11,4 @@ Transfer data
 
 2.  **It took very long time to download the manifest file; and eventually failed with the "504 Gateway Time-out" error.  What should I do?**
 
-    Generating the manifest file can be a time-consuming process when the collection contains a large amount of files (e.g. more than 50,000 files in the collection).  If the process takes too long to complete, the system will terminate it and throw the *504 Gateway Time-out* error.  If this happens to you, please contact datasupport@donders.ru.nl to request for the manifest file.
+    Generating the manifest file can be a time-consuming process when the collection contains a large amount of files (e.g. more than 50,000 files in the collection).  If the process takes too long to complete, the system will terminate it and throw the *504 Gateway Time-out* error.  If this happens to you, please contact ${repositorySupportEmail} to request for the manifest file.

@@ -9,7 +9,7 @@ Publish data
 
     There might be reasons why you do not want to share your data with everyone, e.g. if it represents financial value. In those cases you should make a custom data use agreement under which the data is to be shared (which might e.g. contain a clause about paying for the data).
 
-    There might be reasons related to the privacy of your subjects and where the data cannot be de-identified. In that case you still might be able to share processed results at the group level that allow other researchers to validate the claims in your paper. Note that unprocessed imaging and MEG/EEG data can be shared after it has been de-identified and under the appropriate `Data Use Agreement <https://${repositoryUrl}/doc/dua/>`_.
+    There might be reasons related to the privacy of your subjects and where the data cannot be de-identified. In that case you still might be able to share processed results at the group level that allow other researchers to validate the claims in your paper. Note that unprocessed imaging and MEG/EEG data can be shared after it has been de-identified and under the appropriate `Data Use Agreement <${repositoryUrl}/doc/dua/>`_.
 
 2.  **Can I share my data if they belong to an ongoing project?**
 
@@ -103,7 +103,7 @@ Publish data
 
     The DUA specifies the conditions under which data in a DSC is shared, e.g. to give attribution. The DUA may also include details on specific limitations on the reuse of the data. As manager or contributor to the DSC you specify under which DUA the data is to be shared. When the external researcher agrees with the collection’s DUA, he/she will be automatically added as a viewer to it, which gives him/her read access.
 
-    The repository supports `several DUAs <https://${repositoryUrl}/doc/dua/>`_. Please use :dua:`RU-HD-1.0` for collections that include potentially identifiable data from individual human subjects. If a dataset has more specific requirements for data sharing (e.g. due to sensitivity of data or requirements of funders or collaborating partners), it is required to make a custom DUA. For further help, please send an email to datasupport@donders.ru.nl.
+    The repository supports `several DUAs <${repositoryUrl}/doc/dua/>`_. Please use :dua:`RU-HD-1.0` for collections that include potentially identifiable data from individual human subjects. If a dataset has more specific requirements for data sharing (e.g. due to sensitivity of data or requirements of funders or collaborating partners), it is required to make a custom DUA. For further help, please send an email to ${repositorySupportEmail}.
 
     After publication of the DSC, a LICENSE file containing the selected DUA is added to the collection data.
 

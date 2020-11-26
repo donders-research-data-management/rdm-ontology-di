@@ -8,7 +8,7 @@ For Linux users, the Thunar file manager of XFCE (a Linux windows manager) is th
 Install thunar
 --------------
 
-The Thunar file manager is integrated with the XFCE windows manager. To install XFCE, the super user permission on your Linux device is required. For further help please contact datasupport@donders.ru.nl.
+The Thunar file manager is integrated with the XFCE windows manager. To install XFCE, the super user permission on your Linux device is required. For further help please contact ${repositorySupportEmail}.
 
 Start with thunar
 -----------------

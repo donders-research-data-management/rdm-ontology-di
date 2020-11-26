@@ -8,7 +8,7 @@ For Linux users who don't work with a graphical desktop environment, the recomme
 Install cadaver
 ---------------
 
-For help installing Cadaver on your Linux device please contact datasupport@donders.ru.nl.
+For help installing Cadaver on your Linux device please contact ${repositorySupportEmail}.
 
 Start with cadaver
 ------------------
@@ -19,7 +19,7 @@ Open the Linux terminal and type the following command.
 
 .. code-block:: bash
 
-    $ cadaver https://webdav.${repositoryUrl}
+    $ cadaver ${repositoryWebdavUrl}
 
 You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of your :ref:`data access account <data-access-account>`.
 
@@ -117,7 +117,7 @@ Command list
 +===========================================+==========================================================+
 | help [*command*]                          | Display help message of a cadaver *command*.             |
 +-------------------------------------------+----------------------------------------------------------+
-| cadaver https://webdav.${repositoryUrl} | Log into the WebDAV server.                              |
+| cadaver ${repositoryWebdavUrl} | Log into the WebDAV server.                              |
 +-------------------------------------------+----------------------------------------------------------+
 | cd [*path*]                               | Change working collection referred by *path*             |
 +-------------------------------------------+----------------------------------------------------------+

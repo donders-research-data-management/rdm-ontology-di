@@ -8,7 +8,7 @@
 ${repositoryDescription}
 ==================
 
-At the ${organizationDescription} we have an easy-to-use `${repositoryDescription} <https://${repositoryUrl}>`_ for managing, archiving and sharing our research data.
+At the ${organizationDescription} we have an easy-to-use `${repositoryDescription} <${repositoryUrl}>`_ for managing, archiving and sharing our research data.
 
 **Safe Storage**
 
@@ -31,4 +31,4 @@ You can easily share your research data with collaborators around the world with
 * :ref:`Frequently asked questions <faq>`
 
 
-You can send questions and feedback regarding the data repository to `datasupport@donders.ru.nl <datasupport@donders.ru.nl>`_.
+You can send questions and feedback regarding the data repository to `${repositorySupportEmail} <${repositorySupportEmail}>`_.
