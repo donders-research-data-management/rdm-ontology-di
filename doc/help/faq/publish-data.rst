@@ -3,7 +3,7 @@ Publish data
 
 1.  **Should I always share the data of my publication?**
 
-    Yes! Our funding agencies, such as NWO and EU, require this either explicitly in the grant on basis of which you carried out the work, or implicitly in their general regulations. The Radboud University has made open access part of its policy. The Radboud University requires sharing the data.
+    Yes! Our funding agencies, such as NWO and EU, require this either explicitly in the grant on basis of which you carried out the work, or implicitly in their general regulations. The Radboud University has made open access part of its policy. 
 
     There might be reasons why you do not want to share your data immediately, e.g. if you are still working on follow up publications based on the same data. In those cases you should share the data under an embargo of a certain time.
 
