@@ -3,7 +3,7 @@
 Access shared data
 ==================
 
-Do you want to access data from the Donders Research Data Repository that has been shared? Read more here:
+Do you want to access data from the ${repositoryDescription} that has been shared? Read more here:
 
 .. toctree::
    :maxdepth: 1

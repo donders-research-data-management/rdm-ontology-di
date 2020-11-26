@@ -35,7 +35,7 @@ When sharing the URL with the journal editor, make sure to include a small expla
 
 ::
 
-    The reviewable data for paper XXX-YYY can be found via the following URL: https://data.donders.ru.nl/login/reviewer-CollectionSpecificURL (replace CollectionSpecificURL by the string that you copy and paste when clicking the "get reviewer access" button). The URL provided should only be shared with reviewers. The data will only be publicly available after manuscript acceptance, in which case the persistent identifier that is currently reserved for this collection will become effective.
+    The reviewable data for paper XXX-YYY can be found via the following URL: ${repositoryUrl}/login/reviewer-CollectionSpecificURL (replace CollectionSpecificURL by the string that you copy and paste when clicking the "get reviewer access" button). The URL provided should only be shared with reviewers. The data will only be publicly available after manuscript acceptance, in which case the persistent identifier that is currently reserved for this collection will become effective.
 
 By following the URL, reviewers can view the data sharing collection in their web-browser and can download the collection content according to the instructions found at :ref:`access shared data <access-shared-data>`.
 
@@ -64,7 +64,7 @@ In case you discover mistakes in your collection content, it is possible to re-o
 
 .. note::
 
-    As indicated when clicking the "switch to editable" button, you must contact `datasupport@donders.ru.nl <datasupport@donders.ru.nl>`_ to reopen the collection.
+    As indicated when clicking the "switch to editable" button, you must contact `${repositorySupportEmail} <${repositorySupportEmail}>`_ to reopen the collection.
 
 After the collection has been reopened, an "editable" *draft version* is created. You can edit the collection content in the same way as before publishing it. You can still view the details of "Version 1", but these are no longer editable and you cannot edit its content.
 

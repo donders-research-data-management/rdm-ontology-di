@@ -8,7 +8,7 @@ For Linux users who don't work with a graphical desktop environment, the recomme
 Install cadaver
 ---------------
 
-For help installing Cadaver on your Linux device please contact datasupport@donders.ru.nl.
+For help installing Cadaver on your Linux device please contact ${repositorySupportEmail}.
 
 Start with cadaver
 ------------------
@@ -19,7 +19,7 @@ Open the Linux terminal and type the following command.
 
 .. code-block:: bash
 
-    $ cadaver https://webdav.data.donders.ru.nl
+    $ cadaver ${repositoryWebdavUrl}
 
 You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of your :ref:`data access account <data-access-account>`.
 
@@ -28,7 +28,7 @@ You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of 
 Navigating local and remote directories
 ---------------------------------------
 
-Once you login to the WebDAV service, you are in the root directory. It allows you to navigate to the different Donders Institute organizational units. Type the following command to list the content of the current collection.
+Once you login to the WebDAV service, you are in the root directory. It allows you to navigate to the different ${organizationDescription} organisational units. Type the following command to list the content of the current collection.
 
 .. code-block:: bash
 
@@ -36,9 +36,9 @@ Once you login to the WebDAV service, you are in the root directory. It allows y
 
 .. figure:: images/cadaver-root.png
 
-This example will load files to a collection from the organizational unit DCC.
+This example will load files to a collection from the organisational unit DCC.
 
-In the subtree of a particular organizational unit, you will see the directories of all its collections. You can only see these collections if you are authorized (i.e., if you are a viewer, contributor or manager of the corresponding collection). As a viewer of a collection, you are only allowed to download data from that collection. As a contributor or manager, you are also allowed to upload and modify data.
+In the subtree of a particular organisational unit, you will see the directories of all its collections. You can only see these collections if you are authorized (i.e., if you are a viewer, contributor or manager of the corresponding collection). As a viewer of a collection, you are only allowed to download data from that collection. As a contributor or manager, you are also allowed to upload and modify data.
 
 Change directory to the DCC and list the collections available for the user in this example.
 
@@ -117,7 +117,7 @@ Command list
 +===========================================+==========================================================+
 | help [*command*]                          | Display help message of a cadaver *command*.             |
 +-------------------------------------------+----------------------------------------------------------+
-| cadaver https://webdav.data.donders.ru.nl | Log into the WebDAV server.                              |
+| cadaver ${repositoryWebdavUrl} | Log into the WebDAV server.                              |
 +-------------------------------------------+----------------------------------------------------------+
 | cd [*path*]                               | Change working collection referred by *path*             |
 +-------------------------------------------+----------------------------------------------------------+

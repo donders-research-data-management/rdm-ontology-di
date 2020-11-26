@@ -10,7 +10,7 @@ To allow the journal editor to access a Data Sharing Collection that is not yet 
 
 As an editor, you can share the 'reviewer access URL' (only) with the reviewers. The reviewers can then anonymously access and download the data collection. 
 
-The reviewer access URL will lead you to the Data Sharing Collection page on the `Donders Repository webportal <https://data.donders.ru.nl>`_:
+The reviewer access URL will lead you to the Data Sharing Collection page on the `${repositoryDescription} webportal <${repositoryUrl}>`_:
 
 .. figure:: images/reviewer_access.png
 

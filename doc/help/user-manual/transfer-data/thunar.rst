@@ -8,7 +8,7 @@ For Linux users, the Thunar file manager of XFCE (a Linux windows manager) is th
 Install thunar
 --------------
 
-The Thunar file manager is integrated with the XFCE windows manager. To install XFCE, the super user permission on your Linux device is required. For further help please contact datasupport@donders.ru.nl.
+The Thunar file manager is integrated with the XFCE windows manager. To install XFCE, the super user permission on your Linux device is required. For further help please contact ${repositorySupportEmail}.
 
 Start with thunar
 -----------------
@@ -25,7 +25,7 @@ Alternatively, you could also open the Thunar file manager with the command in a
 
 .. figure:: images/shell-thunar.png
 
-A file manager window will appear. In the browser bar at the top, type the following address: `davs://WebDAV.data.donders.ru.nl`.
+A file manager window will appear. In the browser bar at the top, type the following address: `davs://webdav.${repositoryUrl}`.
 
 .. figure:: images/thunar-webdav-address.png
 
@@ -36,11 +36,11 @@ You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of 
 Transfer data
 -------------
 
-After you logged in, you will see four directories: one for each Donders Institute organizational unit. On the left side you see that a new network connection has been made. You can use this to navigate to the repository.
+After you logged in, you will see a number of directories: one for each ${organizationDescription} organisational unit. On the left side you see that a new network connection has been made. You can use this to navigate to the repository.
 
 .. figure:: images/thunar-navigate.png
 
-In the subtree of a particular organizational unit, you will see the directories of all its collections. You can only see these collections if you are authorized (i.e., if you are a viewer, contributor or manager of the corresponding collection). As a viewer of a collection, you are only allowed to download data from that collection. As a contributor or manager, you are also allowed to upload and modify data.
+In the subtree of a particular organisational unit, you will see the directories of all its collections. You can only see these collections if you are authorized (i.e., if you are a viewer, contributor or manager of the corresponding collection). As a viewer of a collection, you are only allowed to download data from that collection. As a contributor or manager, you are also allowed to upload and modify data.
 
 You can now copy/paste or drag and drop files from and to your preferred local directory.
 

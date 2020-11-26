@@ -99,7 +99,8 @@ Organize data collections
     .. _faq-preferred-formats:
 
 6.  **Which data formats should I use to ensure that my data remains usable in the future?**
-    Using general and common file formats is important to ensure research data will remain usable in the future. For research data collected or processed within the Donders Institute and archived or published using the Donders Repository, it is encouraged to use the following standard, open or exchangeable file formats:
+
+    Using general and common file formats is important to ensure research data will remain usable in the future. For research data collected or processed within the ${organizationDescription} and archived or published using the ${repositoryDescription}, it is encouraged to use the following standard, open or exchangeable file formats:
 
     ============================  ===================================================
     Type                          Preferred format
@@ -131,7 +132,7 @@ Organize data collections
 
 8.  **Where should I store personal information about the participants?**
 
-    For data acquisition you have to know who are your participants and you need to be able to contact them. This requires personal information to be stored. The mapping of the personal information on the participant number is called the "pseudonimization key". The pseudonimization key should be stored in an encrypted file that is stored separately from the experimental data. The file should be protected by a strong password according to the RU password policy. The password is only to be known to the PI and the researchers involved in data acquisition.
+    For data acquisition you have to know who are your participants and you need to be able to contact them. This requires personal information to be stored. The mapping of the personal information on the participant number is called the "pseudonimization key". The pseudonimization key should be stored in an encrypted file that is stored separately from the experimental data. The file should be protected by a strong password according to the Radboud University's password policy. The password is only to be known to the PI and the researchers involved in data acquisition.
 
     The pseudonimization key must never be stored in the repository.
 
