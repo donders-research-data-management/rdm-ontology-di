@@ -2,7 +2,8 @@ node {
     // Determine image tag to push to. For dr enviromenments use a '-donders' suffix.
     def branch = env.BRANCH_NAME
     def tagSuffix = ''
-    def environmentPrefix = 'rdr'
+    def rdrEnvironment = 'rdr'
+    def environmentPrefix = rdrEnvironment
     if (branch.startsWith('dr')) {
         tagSuffix = '-donders'
         environmentPrefix = 'dr'
@@ -46,7 +47,8 @@ node {
         throw e
     } finally {
         echo "Mailing release job status"
-        def mailRecipients = env.rdmDondersContentMail
+        def mailRecipients = environmentPrefix.equals(rdrEnvironment) ? env.configurableContentMailRdr :
+            env.configurableContentMailDr
         def jobName = currentBuild.fullDisplayName
 
         if (env.BUILD_FAILURE == null) {
