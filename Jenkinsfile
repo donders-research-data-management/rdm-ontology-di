@@ -1,5 +1,5 @@
 node {
-    // Determine image tag to push to. For dr enviromenments use a '-donders' suffix.
+    // Determine image tag to push to. For dr environments use a '-donders' suffix.
     def branch = env.BRANCH_NAME
     def tagSuffix = ''
     def rdrEnvironment = 'rdr'
@@ -18,6 +18,7 @@ node {
        dtap = 'prod'
     }
 
+    def subjectResult = 'deployed successfully'
     try {
         stage('Checkout') {
             checkout scm
@@ -42,29 +43,25 @@ node {
         }
 
     } catch(Exception e) {
-        echo "Got exception: " + e.getMessage() + " -> " + e.toString()
-        env.BUILD_FAILURE = e.getMessage()
+        echo "Exception caught: " + e.getMessage() + " -> " + e.toString()
+        // Make the email send a failure message, and set the subject appriopriately
+        currentBuild.result = 'FAILURE'
+        subjectResult = 'build failed'
         throw e
     } finally {
         echo "Mailing release job status"
-        def mailRecipients = environmentPrefix.equals(rdrEnvironment) ? env.configurableContentMailRdr :
-            env.configurableContentMailDr
+        def recipients = environmentPrefix.equals(rdrEnvironment) ? env.configurableContentRecipientsRdr :
+            env.configurableContentRecipientsDr
         def jobName = currentBuild.fullDisplayName
+        def subject = 'RDR content '
+        body = '''${SCRIPT, template="groovy-html.template"}'''
+        subject += subjectResult
 
-        if (env.BUILD_FAILURE == null) {
-            echo "Mailing succes"
-            emailext body: '''${SCRIPT, template="groovy-html.template"}''',
+        emailext body: body,
             mimeType: 'text/html',
-            subject: "[Jenkins] ${jobName}",
-            to: "${mailRecipients}",
-            replyTo: "${mailRecipients}",
+            subject: subject,
+            to: recipients,
+            replyTo: env.supportEmailRdr,
             recipientProviders: [[$class: 'CulpritsRecipientProvider']]
-        } else {
-            echo "Mailing build failure"
-            emailext body: "${jobName} failed: ${env.BUILD_FAILURE}",
-                subject: "[Jenkins] ${jobName}",
-                to: "${mailRecipients}",
-                replyTo: "${mailRecipients}"
-        }
     }
 }
