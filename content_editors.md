@@ -127,22 +127,32 @@ Currently, the CSS-style is coded in the portal code.  The only customisable com
 To make the configurable content more dynamic a number of variables is supported that are replaced by the system with actual values. For instance, the footer text is configurable and displays the software version. The syntax for using variables is as follows: `${variable name}`. For example: `${version}`.
 The following variables are supported, which is a combination of variables that can be used everywhere (without context) and ones that are only available within a certain context:
 
-| Variable | Context | Description |
+| Variable | Description | Context |
 | -------- | ------- | ----------- |
-|`version`|| Software version |
-|`year`|| Current year |
-|`userCount`|| Number of users (excluding system accounts) |
-|`collectionDscPublishedCount`|| Number of Data Sharing Collections that have been published |
-|`collectionDscDraftCount`|| Number of Data Sharing Collections that have not been published |
-|`collectionDacArchivedCount`|| Number of Data Acquisition Collections that have been archived |
-|`collectionDacDraftCount`|| Number of Data Acquisition Collections that have not been archived |
-|`collectionRdcArchivedCount`|| Number of Research Documentation Collections that have been archived |
-|`collectionRdcDraftCount`|| Number of Research Documentation Collections that have not been archived |
-|`collectionSizeTotal`|| Total size of all collections in the repository |
-|`downloadLink`|[doc/downloadcontent.html](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/downloadcontent.html)|Link to download the Collection's content |
-|`collectionPersistentIdentifier`|[doc/collection/publish/readme.txt](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/collection/publish/readme.txt)|Persistent identifier link to access the collection's metadata |
-|`readmeFile`|[doc/collection/publish/reserved_files.html](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/collection/publish/files_reserved.html)|Name of the readme file which is created when a collection is published |
-|`licenseFile`|[doc/collection/publish/files_reserved.html](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/collection/publish/files_reserved.html)|Name of the license file that contains the data use agreement which is created when a collection is published |
+|`version`| Software version ||
+|`year`| Current year ||
+|`repositoryDescription`| The repository description. Either Radboud Data Repository for RDR or Donders Repository for DR ||
+|`repositoryUrl`| The portal URL. Either https://data.ru.nl for RDR or https://data.donders.ru.nl for DR ||
+|`repositoryWebdavUrl`| The WebDAV URL. Either https://webdav.data.ru.nl for RDR or https://webdav.data.donders.ru.nl for DR ||
+|`repositoryWebdavPublicUrl`| The public WebDAV URL. Either https://public.data.ru.nl for RDR or https://public.data.donders.ru.nl for DR ||
+|`repositorySupportEmail`| The email address to use to get support. Either rdmsupport@ubn.ru.nl for RDR or datasupport@donders.ru.nl for DR ||
+|`repositoryHostname`| The repository hostname, useful when one of the more specific URLs above does not suffice. Either data.ru.nl for RDR or data.donders.ru.nl for DR ||
+|`userCount`| Number of users (excluding system accounts) ||
+|`collectionDscPublishedCount`| Number of Data Sharing Collections that have been published ||
+|`collectionDscDraftCount`| Number of Data Sharing Collections that have not been published ||
+|`collectionDacArchivedCount`| Number of Data Acquisition Collections that have been archived ||
+|`collectionDacDraftCount`| Number of Data Acquisition Collections that have not been archived ||
+|`collectionRdcArchivedCount`| Number of Research Documentation Collections that have been archived ||
+|`collectionRdcDraftCount`| Number of Research Documentation Collections that have not been archived ||
+|`collectionSizeTotal`| Total size of all collections in the repository ||
+|`collectionSizeInBytesTotal`| Total size of all collections in the repository in bytes ||
+|`downloadLink`| Link to download the Collection's content ||[doc/downloadcontent.html](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/downloadcontent.html)|
+|`collectionAbstract`| The collection's abstract |[doc/collection/publish/readme.txt](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/collection/publish/readme.txt)|
+|`collectionPersistentIdentifier`|Persistent identifier link to access the collection's metadata |[doc/collection/publish/readme.txt](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/collection/publish/readme.txt)|
+|`collectionTitle`| The collection's title |[doc/collection/publish/readme.txt](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/collection/publish/readme.txt)
+|`collectionPublicationYear`| The year in which the collection has been published |[doc/collection/publish/readme.txt](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/collection/publish/readme.txt)|
+|`readmeFile`| Name of the readme file which is created when a collection is published |[doc/collection/publish/reserved_files.html](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/collection/publish/files_reserved.html)|
+|`licenseFile`| Name of the license file that contains the data use agreement which is created when a collection is published |[doc/collection/publish/files_reserved.html](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/collection/publish/files_reserved.html)|
 
 Please be aware that when using variables that do not exist within a certain context the system will not be able to present the corresponding page on the web portal, or send out corresponding emails.
 
