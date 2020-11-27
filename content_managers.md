@@ -22,7 +22,7 @@ Please refer to [this document](content_editors.md) for details.
 1. download the repository
 
   ```bash
-  $ git clone https://github.com/donders-research-data-management/rdm-configurable-content-donders
+  $ git clone https://github.com/Radboud-University/rdr-configurable-content
   ```
 
 2. create distribution zip file

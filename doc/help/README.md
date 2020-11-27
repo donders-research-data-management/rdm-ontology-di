@@ -8,7 +8,7 @@ Hereafter are possible utilities/workflows that will make this process a bit eas
 
 ## Method 1: edit on GitHub and preview with Readthedocs
 
-One can edit the ReST documents directly on the [GitHub repository](https://github.com/donders-research-data-management/rdm-configurable-content-donders/tree/master/doc/help).  A corresponding [ReadTheDocs](https://readthedocs.org/) project has been linked to this repository.  As soon as changes are made in the GitHub repository, a process is triggered to rebuild the documentation at this [preview on ReadTheDocs](https://rdm-configurable-content-donders.readthedocs.io/en/latest/).
+One can edit the ReST documents directly on the [GitHub repository](https://github.com/Radboud-University/rdr-configurable-content/tree/master/doc/help).  A corresponding [ReadTheDocs](https://readthedocs.org/) project has been linked to this repository.  As soon as changes are made in the GitHub repository, a process is triggered to rebuild the documentation at this [preview on ReadTheDocs](https://rdm-configurable-content-donders.readthedocs.io/en/latest/).
 
 ## Method 2: edit with desktop tools
 
