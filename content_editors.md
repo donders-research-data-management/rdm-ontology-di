@@ -44,7 +44,7 @@ Make a local copy of the repository:
 
 ```bash
 $ git clone https://github.com/Radboud-University/rdr-configurable-content.git
-$ cd rdm-configurable-content-donders
+$ cd rdr-configurable-content
 ```
 
 Edit the files with your favorite text editor.  With this method, changes need to be committed and pushed to GitHub by
