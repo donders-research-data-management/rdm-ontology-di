@@ -28,7 +28,7 @@ Please refer to [this document](content_editors.md) for details.
 2. create distribution zip file
 
   ```bash
-  $ cd rdm-configurable-content-donders
+  $ cd rdr-configurable-content
   $ make -f Makefile dist
   ```
 
