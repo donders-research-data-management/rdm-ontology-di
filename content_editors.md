@@ -1,16 +1,16 @@
 # Editing the configurable content of the Radboud Data Repository portal
 
-This page explains how to update the configurable contents which is displayed on the Radboud Data Repository portal.
+This page explains how to update the configurable contents which is displayed on the Radboud Data Repository portal. This includes the help documentation, but also a lot of the the text that is shown on the portal itself.
 
-This repository has two branches, the _master_ and the _release_.  They serve different purposes in the following workflow from editing the contents to managing how these changes appear online.
+This repository serves both for the Radboud Data Repository (RDR) as for the Donders Repository (DR). Each of the instances of the repository has two branches, the _acceptance_ and the _release_.  They serve different purposes in the workflow.
 
 ## The workflow
 
-Two roles are involved in the workflow: the _content editor_ which is responsible for updating the contents; and the _content manager_ which brings the update online.  Hereafter is the workflow:
+Two roles are involved in the workflow: the _content editor_ which is responsible for updating the contents; and the _content manager_ which brings the update online. Hereafter is the workflow:
 
-1. The _content editor_ modifies contents on the _master_ branch.
-1. The _content editor_ informs the _content manager_ to apply changes to the Radboud Data Repository portal.
-1. The _content manager_ merges changes in the _master_ branch into the _release_ branch.  Whenever changes are made in the _release_ branch, an automatic process will pick them up and apply them on the portal.
+1. The _content editor_ modifies contents on the _acceptance_ branch.
+1. The _content editor_ informs the _content manager_ to review the changes, if desired they can be manually tested on the acceptance environment.
+1. The _content manager_ merges changes from _acceptance_ into the _release_ branch.  The changes in the _release_ branch will automatically be processed and apear on the production environment.
 1. The _content manager_ receives a notification from the automatic process about the result of the process.
 
 ## Content management and deployment
@@ -23,12 +23,12 @@ The configurable contents are organised in GitHub as a git repository, with the 
 
 | Branch         | Role                | Deployed to                    |
 | -------------- | ------------------- | -------------------------------|
-| rdr-release    | Content manager     | https://data.ru.nl             |
 | rdr-acceptance | Content editor      | https://data-acc.ru.nl         |
-| dr-release     | Content manager     | https://data.donders.ru.nl     |
+| rdr-release    | Content manager     | https://data.ru.nl             |
 | dr-acceptance  | Content editor      | https://data-acc.donders.ru.nl |
+| dr-release     | Content manager     | https://data.donders.ru.nl     |
 
-Before you start editing make sure you're working on the right branch dependent on your role and the environment you need to deploy to. As a content editor __you should only edit an acceptance branch__.
+Before you start editing make sure you're working on the right branch dependent on your role and the environment you need to deploy to. As a content editor __you should only edit the acceptance branch__.
 
 There are two ways of editing the static content:
 
