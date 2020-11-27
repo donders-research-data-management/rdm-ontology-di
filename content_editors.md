@@ -19,9 +19,16 @@ Please refer to [this document](content_managers.md) for details.
 
 ## How to edit
 
-The configurable contents are organised in GitHub as a git repository.
+The configurable contents are organised in GitHub as a git repository, with the following branches:
 
-In the repository, you will see two branches, the _master_ and the _release_.  __You should only edit the master branch__.  Thus, before you start editing, make sure that you are on the master branch.
+| Branch         | Role                | Deployed to                    |
+| -------------- | ------------------- | -------------------------------|
+| rdr-release    | Content manager     | https://data.ru.nl             |
+| rdr-acceptance | Content editor      | https://data-acc.ru.nl         |
+| dr-release     | Content manager     | https://data.donders.ru.nl     |
+| dr-acceptance  | Content editor      | https://data-acc.donders.ru.nl |
+
+Before you start editing make sure you're working on the right branch dependent on your role and the environment you need to deploy to. As a content editor __you should only edit an acceptance branch__.
 
 There are two ways of editing the static content:
 
