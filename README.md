@@ -12,4 +12,4 @@ The repository can be accessed at http://data-acc.ru.nl/
 
 The end-user documentation is at https://data-acc.ru.nl/doc/help/
 
-Technical documentation for system administrators is at https://radboud.atlassian.net/wiki/spaces/RDM/overview
+Technical documentation for system administrators is at https://radboud.atlassian.net/wiki/spaces/RDR
