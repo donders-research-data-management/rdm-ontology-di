@@ -60,6 +60,7 @@ node {
         emailext body: body,
             mimeType: 'text/html',
             subject: subject,
+            from: 'RDR buildserver',
             to: recipients,
             replyTo: env.supportEmailRdr,
             recipientProviders: [[$class: 'CulpritsRecipientProvider']]
