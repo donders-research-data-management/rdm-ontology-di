@@ -4,14 +4,29 @@ This page explains how to update the configurable contents which is displayed on
 
 This repository serves both for the Radboud Data Repository (RDR) as for the Donders Repository (DR). Each of the instances of the repository has two branches, the _acceptance_ and the _release_.  They serve different purposes in the workflow.
 
-## The workflow
+## Workflow
 
 Two roles are involved in the workflow: the _content editor_ which is responsible for updating the contents; and the _content manager_ which brings the update online. Hereafter is the workflow:
 
 1. The _content editor_ modifies contents on the _acceptance_ branch.
-1. The _content editor_ informs the _content manager_ to review the changes, if desired they can be manually tested on the acceptance environment.
-1. The _content manager_ merges changes from _acceptance_ into the _release_ branch.  The changes in the _release_ branch will automatically be processed and apear on the production environment.
-1. The _content manager_ receives a notification from the automatic process about the result of the process.
+1. The _RDR buildserver_ builds the content on the _acceptance_ branch and deploys to _acceptance_ environment (refer to build workflow).
+1. The _content editor_ informs the _content manager_ to review the changes by creating a pull request.
+     1. The _content manager_ is set as assignee for the pull request
+     1. The _contact of the other support team_ is set as reviewer of te pull request.
+1. The _contact of the other support team_ indicates with a comment whether they would also like the change.
+1. The _content manager_ merges changes from _acceptance_ into the _release_ branch by merging the pull request.
+1. The _RDR buildserver_ builds the content on the _release_ branch and deploys to _production_ environment
+1. The _content manager_ cherry-picks the commit and adds it the the _acceptance_ branch of the other support team, when the other team agrees.
+     1. 1. The _RDR buildserver_ builds the content on the _acceptance_ branch and deploys to _acceptance_ environment
+
+## Build workflow
+1. The _RDR buildserver_ check for changes on the repository each 1 minute.
+1. In case of success it is deployed to the environment.
+1. The outcome of the build is mailed to _content editors_ and _content managers_ selected for that branch.
+1. In case of a succesful build the _content editor_ reviews the changes on the acceptance environment.
+1. In case of a failed build the _content editor_ tries to resolve the issue themselves or contacts [RDR support](mailto:rdr-support@ru.nl) for support.
+
+The above proces an take 2 minutes in total at max.
 
 ## Content management and deployment
 
