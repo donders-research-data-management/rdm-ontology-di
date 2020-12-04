@@ -17,7 +17,7 @@ The following section will demonstrate how to transfer files to the repository u
 
 Open the Linux terminal and type the following command.
 
-.. code-block:: bash
+.. code-block:: none
 
     $ cadaver ${repositoryWebdavUrl}
 
