@@ -6,7 +6,7 @@
 .. _index:
 
 ${repositoryDescription}
-==================
+========================
 
 At the ${organizationDescription} we have an easy-to-use `${repositoryDescription} <${repositoryUrl}>`_ for managing, archiving and sharing our research data.
 
