@@ -103,7 +103,7 @@ Publish data
 
     The DUA specifies the conditions under which data in a DSC is shared, e.g. to give attribution. The DUA may also include details on specific limitations on the reuse of the data. As manager or contributor to the DSC you specify under which DUA the data is to be shared. When the external researcher agrees with the collection’s DUA, he/she will be automatically added as a viewer to it, which gives him/her read access.
 
-    The repository supports `several DUAs <${repositoryUrl}/doc/dua/>`_. Please use :dua:`RU-HD-1.0` for collections that include potentially identifiable data from individual human subjects. If a dataset has more specific requirements for data sharing (e.g. due to sensitivity of data or requirements of funders or collaborating partners), it is required to make a custom DUA. For further help, please send an email to ${repositorySupportEmail}.
+    The repository supports `several DUAs <${repositoryUrl}/doc/dua/>`_. Please use :dua:`RU-DI-HD-1.0` for collections that include potentially identifiable data from individual human subjects. If a dataset has more specific requirements for data sharing (e.g. due to sensitivity of data or requirements of funders or collaborating partners), it is required to make a custom DUA. For further help, please send an email to ${repositorySupportEmail}.
 
     After publication of the DSC, a LICENSE file containing the selected DUA is added to the collection data.
 
