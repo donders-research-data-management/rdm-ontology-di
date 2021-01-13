@@ -15,7 +15,7 @@ Here you can filter your collections according to:
 - :ref:`Collection type <faq-collection-types>`
 - Collection state
 
-To review the details of a collection (e.g. title, :ref:`abstract <faq-abstract>`, :ref:`authors <faq-authors>`, keywords :ref:`SfN <faq-keyword-SfN>` or :ref:`MeSH <faq-keyword-MeSH>`, :ref:`ethical approvals <faq-ethical-approval-human-data>`), click on the collection.
+To view and/or edit the details of a collection (e.g. title, :ref:`abstract <faq-abstract>`, :ref:`authors <faq-authors>`, keywords :ref:`SfN <faq-keyword-SfN>` or :ref:`MeSH <faq-keyword-MeSH>`, :ref:`ethical approvals <faq-ethical-approval-human-data>`), click on the collection.
 
 .. note::
 
